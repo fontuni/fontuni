@@ -161,7 +161,7 @@ feature ccmp {
 	\uni0E4F \uni0E50 \uni0E51 \uni0E52 \uni0E53 \uni0E54 \uni0E55 \uni0E56 \uni0E57 
 	\uni0E58 \uni0E59 \uni0E5A \uni0E5B \uni0E31.left \uni0E34.left \uni0E35.left 
 	\uni0E36.left \uni0E37.left \uni0E47.left \uni0E4D.left \j \u \x \space \Y \g 
-	\uni0E38.low \uni0E39.low \uni0E3A.low \E \D \six \s ];
+	\uni0E38.low \uni0E39.low \uni0E3A.low \E \D \six \s \uni00A0 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394964730
-ModificationTime: 1395079478
+ModificationTime: 1395081014
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -177,11 +177,11 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 192 12 8
+WinInfo: 96 12 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 281 115
+BeginChars: 284 117
 
 StartChar: uni0E2D
 Encoding: 205 3629 0
@@ -2809,8 +2809,16 @@ Refer: 52 3661 N 1 0 0 1 -180 0 2
 Validated: 1
 EndChar
 
+StartChar: space
+Encoding: 32 32 112
+Width: 360
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
 StartChar: uni0E38.low
-Encoding: 219 -1 112
+Encoding: 281 -1 113
 Width: 0
 VWidth: -200
 Flags: W
@@ -2823,7 +2831,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0E39.low
-Encoding: 220 -1 113
+Encoding: 282 -1 114
 Width: 0
 VWidth: 0
 Flags: W
@@ -2836,7 +2844,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0E3A.low
-Encoding: 221 -1 114
+Encoding: 283 -1 115
 Width: 0
 VWidth: -150
 Flags: W
@@ -2846,6 +2854,14 @@ LayerCount: 2
 Fore
 Refer: 55 3642 N 1 0 0 1 -10 -170 2
 Validated: 1
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 116
+Width: 360
+VWidth: 0
+Flags: WO
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

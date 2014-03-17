@@ -226,11 +226,15 @@
 	<string>uni0E_47.left.glif</string>
 	<key>uni0E4D.left</key>
 	<string>uni0E_4D_.left.glif</string>
+	<key>space</key>
+	<string>space.glif</string>
 	<key>uni0E38.low</key>
 	<string>uni0E_38.low.glif</string>
 	<key>uni0E39.low</key>
 	<string>uni0E_39.low.glif</string>
 	<key>uni0E3A.low</key>
 	<string>uni0E_3A_.low.glif</string>
+	<key>uni00A0</key>
+	<string>uni00A_0.glif</string>
     </dict>
 </plist>
