@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+	<key>familyName</key>
+	<string>BoonTP Compat</string>
+	<key>styleName</key>
+	<string>compat</string>
+	<key>copyright</key>
+	<string>(c)2014 Sungsit Sawaiwan</string>
+	<key>unitsPerEm</key>
+	<integer>1200</integer>
+	<key>ascender</key>
+	<integer>960</integer>
+	<key>descender</key>
+	<integer>-240</integer>
+	<key>italicAngle</key>
+	<real>0</real>
+	<key>note</key>
+	<string></string>
+	<key>openTypeHeadCreated</key>
+	<string>2014/02/16 10:12:10</string>
+	<key>openTypeNameVersion</key>
+	<string>Version 0.1</string>
+	<key>openTypeNameSampleText</key>
+	<string>พี่ป๋ำฎูนู๋เป่าฝุ่นหญู่ก้นปี่</string>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>PfEd</string>
+	<key>openTypeOS2FamilyClass</key>
+	<array>
+		<integer>0</integer>
+		<integer>0</integer>
+	</array>
+	<key>openTypeOS2Type</key>
+	<array>
+		<integer>3</integer>
+	</array>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>960</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-240</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>108</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>1080</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>390</integer>
+	<key>postscriptFontName</key>
+	<string>boontp-compat</string>
+	<key>postscriptFullName</key>
+	<string>BoonTP Compat</string>
+	<key>postscriptWeightName</key>
+	<string>Book</string>
+	<key>postscriptUnderlineThickness</key>
+	<integer>60</integer>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-60</integer>
+    </dict>
+</plist>
