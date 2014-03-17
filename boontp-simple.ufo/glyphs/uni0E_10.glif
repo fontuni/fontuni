@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0E10" format="1">
-  <advance width="660"/>
+  <advance width="640"/>
   <unicode hex="0E10"/>
   <outline>
     <contour>
-      <point x="570" y="-60" type="line"/>
-      <point x="570" y="-240" type="line"/>
-      <point x="470" y="-240" type="line"/>
-      <point x="330" y="-140" type="line"/>
-      <point x="190" y="-240" type="line"/>
-      <point x="100" y="-240" type="line"/>
-      <point x="100" y="-90" type="line"/>
-      <point x="190" y="-90" type="line"/>
-      <point x="190" y="-156" type="line"/>
-      <point x="330" y="-60" type="line"/>
-      <point x="470" y="-160" type="line"/>
-      <point x="470" y="-60" type="line"/>
+      <point x="550" y="-60" type="line"/>
+      <point x="550" y="-240" type="line"/>
+      <point x="450" y="-240" type="line"/>
+      <point x="310" y="-140" type="line"/>
+      <point x="170" y="-240" type="line"/>
+      <point x="80" y="-240" type="line"/>
+      <point x="80" y="-90" type="line"/>
+      <point x="170" y="-90" type="line"/>
+      <point x="170" y="-156" type="line"/>
+      <point x="310" y="-60" type="line"/>
+      <point x="450" y="-160" type="line"/>
+      <point x="450" y="-60" type="line"/>
     </contour>
     <contour>
-      <point x="90" y="600" type="line"/>
-      <point x="570" y="600" type="line"/>
-      <point x="570" y="510" type="line"/>
-      <point x="190" y="510" type="line"/>
-      <point x="190" y="390" type="line"/>
-      <point x="570" y="390" type="line"/>
-      <point x="570" y="0" type="line"/>
-      <point x="320" y="0" type="line"/>
-      <point x="200" y="150" type="line"/>
-      <point x="140" y="150" type="line"/>
-      <point x="140" y="240" type="line"/>
-      <point x="270" y="240" type="line"/>
-      <point x="380" y="90" type="line"/>
-      <point x="470" y="90" type="line"/>
-      <point x="470" y="300" type="line"/>
-      <point x="90" y="300" type="line"/>
+      <point x="70" y="600" type="line"/>
+      <point x="550" y="600" type="line"/>
+      <point x="550" y="510" type="line"/>
+      <point x="170" y="510" type="line"/>
+      <point x="170" y="390" type="line"/>
+      <point x="550" y="390" type="line"/>
+      <point x="550" y="0" type="line"/>
+      <point x="300" y="0" type="line"/>
+      <point x="180" y="150" type="line"/>
+      <point x="120" y="150" type="line"/>
+      <point x="120" y="240" type="line"/>
+      <point x="250" y="240" type="line"/>
+      <point x="360" y="90" type="line"/>
+      <point x="450" y="90" type="line"/>
+      <point x="450" y="300" type="line"/>
+      <point x="70" y="300" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -71,19 +71,19 @@
 	<array>
 	  <dict>
 	    <key>position</key>
-	    <integer>90</integer>
+	    <integer>70</integer>
 	    <key>width</key>
 	    <integer>100</integer>
 	  </dict>
 	  <dict>
 	    <key>position</key>
-	    <integer>100</integer>
+	    <integer>80</integer>
 	    <key>width</key>
 	    <integer>90</integer>
 	  </dict>
 	  <dict>
 	    <key>position</key>
-	    <integer>470</integer>
+	    <integer>450</integer>
 	    <key>width</key>
 	    <integer>100</integer>
 	  </dict>

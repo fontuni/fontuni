@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394964730
-ModificationTime: 1394994600
+ModificationTime: 1395065940
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -136,143 +136,143 @@ EndChar
 
 StartChar: uni0E17
 Encoding: 3607 3607 2
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: 0 21G<90 190 470 570> 510 90<30 90>
-VStem: 30 160<510 600> 90 100<0 350 450 510> 470 100<0 500>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 21G<100 200 480 580> 510 90<40 100>
+VStem: 40 160<510 600> 100 100<0 350 450 510> 480 100<0 500>
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1xd8
- 470 0 l 1
- 470 500 l 1
- 190 350 l 1
- 190 0 l 1
- 90 0 l 1
- 90 510 l 1xd8
- 30 510 l 1
- 30 600 l 1
- 190 600 l 1xe8
- 190 450 l 1
- 470 600 l 1
- 570 600 l 1
- 570 0 l 1xd8
+580 0 m 1xd8
+ 480 0 l 1
+ 480 500 l 1
+ 200 350 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 100 510 l 1xd8
+ 40 510 l 1
+ 40 600 l 1
+ 200 600 l 1xe8
+ 200 450 l 1
+ 480 600 l 1
+ 580 600 l 1
+ 580 0 l 1xd8
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E19
 Encoding: 3609 3609 3
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: 0 90<570 630> 510 90<30 90>
-VStem: 30 160<510 600> 90 100<100 510> 470 160<0 90> 470 100<90 150 250 600>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<580 640> 510 90<40 100>
+VStem: 40 160<510 600> 100 100<100 510> 480 160<0 90> 480 100<90 150 250 600>
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-190 600 m 1xe0
- 190 100 l 1
- 470 250 l 1
- 470 600 l 1
- 570 600 l 1
- 570 90 l 1xd4
- 630 90 l 1
- 630 0 l 1
- 470 0 l 1xc8
- 470 150 l 1
- 190 0 l 1
- 90 0 l 1
- 90 510 l 1xd4
- 30 510 l 1
- 30 600 l 1
- 190 600 l 1xe0
+200 600 m 1xe0
+ 200 100 l 1
+ 480 250 l 1
+ 480 600 l 1
+ 580 600 l 1
+ 580 90 l 1xd4
+ 640 90 l 1
+ 640 0 l 1
+ 480 0 l 1xc8
+ 480 150 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 100 510 l 1xd4
+ 40 510 l 1
+ 40 600 l 1
+ 200 600 l 1xe0
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E21
 Encoding: 3617 3617 4
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: 0 90<30 90> 510 90<30 90>
-VStem: 30 160<0 90 510 600> 90 100<90 150 250 510> 470 100<100 600>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<40 100> 510 90<40 100>
+VStem: 40 160<0 90 510 600> 100 100<90 150 250 510> 480 100<100 600>
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 600 m 1xd8
- 570 0 l 1
- 470 0 l 1
- 190 150 l 1xd8
- 190 0 l 1
- 30 0 l 1
- 30 90 l 1xe8
- 90 90 l 1
- 90 510 l 1xd8
- 30 510 l 1
- 30 600 l 1
- 190 600 l 1xe8
- 190 250 l 1
- 470 100 l 1
- 470 600 l 1
- 570 600 l 1xd8
+580 600 m 1xd8
+ 580 0 l 1
+ 480 0 l 1
+ 200 150 l 1xd8
+ 200 0 l 1
+ 40 0 l 1
+ 40 90 l 1xe8
+ 100 90 l 1
+ 100 510 l 1xd8
+ 40 510 l 1
+ 40 600 l 1
+ 200 600 l 1xe8
+ 200 250 l 1
+ 480 100 l 1
+ 480 600 l 1
+ 580 600 l 1xd8
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E1A
 Encoding: 3610 3610 5
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: 0 90<190 470> 510 90<30 90>
-VStem: 30 160<510 600> 90 100<90 510> 470 100<90 600>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<200 480> 510 90<40 100>
+VStem: 40 160<510 600> 100 100<90 510> 480 100<90 600>
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1xd8
- 90 0 l 1
- 90 510 l 1xd8
- 30 510 l 1
- 30 600 l 1
- 190 600 l 1xe8
- 190 90 l 1
- 470 90 l 1
- 470 600 l 1
- 570 600 l 1
- 570 0 l 1xd8
+580 0 m 1xd8
+ 100 0 l 1
+ 100 510 l 1xd8
+ 40 510 l 1
+ 40 600 l 1
+ 200 600 l 1xe8
+ 200 90 l 1
+ 480 90 l 1
+ 480 600 l 1
+ 580 600 l 1
+ 580 0 l 1xd8
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E1B
 Encoding: 3611 3611 6
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: 0 90<190 470> 510 90<30 90>
-VStem: 30 160<510 600> 90 100<90 510> 470 100<90 840>
-AnchorPoint: "mark-th-left-above" 360 680 basechar 0
+HStem: 0 90<200 480> 510 90<40 100>
+VStem: 40 160<510 600> 100 100<90 510> 480 100<90 840>
+AnchorPoint: "mark-th-left-above" 370 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1xd8
- 90 0 l 1
- 90 510 l 1xd8
- 30 510 l 1
- 30 600 l 1
- 190 600 l 1xe8
- 190 90 l 1
- 470 90 l 1
- 470 840 l 1
- 570 840 l 1
- 570 0 l 1xd8
+580 0 m 1xd8
+ 100 0 l 1
+ 100 510 l 1xd8
+ 40 510 l 1
+ 40 600 l 1
+ 200 600 l 1xe8
+ 200 90 l 1
+ 480 90 l 1
+ 480 840 l 1
+ 580 840 l 1
+ 580 0 l 1xd8
 EndSplineSet
 Validated: 1
 EndChar
@@ -313,14 +313,14 @@ Encoding: 3589 3589 8
 Width: 660
 VWidth: 0
 Flags: W
-HStem: 0 21G<90 190 470 570> 200 130<290 370> 240 90<190 290> 580 20G<90 221.111 438.889 570>
+HStem: 0 21G<90 190 470 570> 200 130<290 370> 240 90<190 290>
 VStem: 90 100<0 240 330 510> 290 80<200 240> 470 100<0 510>
-CounterMasks: 1 0e
+CounterMasks: 1 1c
 AnchorPoint: "mark-th-above" 570 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-90 600 m 1xbe
+90 600 m 1xbc
  190 600 l 1
  330 510 l 1
  470 600 l 1
@@ -330,15 +330,15 @@ SplineSet
  470 510 l 1
  330 420 l 1
  190 510 l 1
- 190 330 l 1xbe
+ 190 330 l 1xbc
  370 330 l 1
  370 200 l 1
- 290 200 l 1xde
+ 290 200 l 1xdc
  290 240 l 1
  190 240 l 1
  190 0 l 1
  90 0 l 1
- 90 600 l 1xbe
+ 90 600 l 1xbc
 EndSplineSet
 Validated: 1
 EndChar
@@ -374,102 +374,102 @@ EndChar
 
 StartChar: uni0E03
 Encoding: 3587 3587 10
-Width: 660
+Width: 680
 VWidth: 0
 Flags: W
-HStem: 0 90<190 470> 420 180<20 120>
-VStem: 20 100<420 510> 90 100<90 210> 279 101<450 510> 470 100<90 600>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<210 490> 420 180<40 140>
+VStem: 40 100<420 510> 110 100<90 210> 299 101<450 510> 490 100<90 600>
+AnchorPoint: "mark-th-above" 590 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1xdc
- 90 0 l 1
- 90 240 l 1xdc
- 279 450 l 1
- 280 510 l 1
- 200 460 l 1
- 120 510 l 1
- 120 420 l 1
- 20 420 l 1
- 20 600 l 1
- 120 600 l 1xec
- 200 550 l 1
- 280 600 l 1
- 380 600 l 1
- 380 420 l 1
- 190 210 l 1
- 190 90 l 1
- 470 90 l 1
- 470 600 l 1
- 570 600 l 1
- 570 0 l 1xdc
+590 0 m 1xdc
+ 110 0 l 1
+ 110 240 l 1xdc
+ 299 450 l 1
+ 300 510 l 1
+ 220 460 l 1
+ 140 510 l 1
+ 140 420 l 1
+ 40 420 l 1
+ 40 600 l 1
+ 140 600 l 1xec
+ 220 550 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 420 l 1
+ 210 210 l 1
+ 210 90 l 1
+ 490 90 l 1
+ 490 600 l 1
+ 590 600 l 1
+ 590 0 l 1xdc
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E06
 Encoding: 3590 3590 11
-Width: 660
+Width: 680
 VWidth: 0
 Flags: W
-HStem: 0 90<30 90> 420 180<20 120>
-VStem: 20 100<420 510> 30 160<0 90> 90 100<90 150> 280 100<450 510> 470 100<100 600>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<50 110> 420 180<40 140>
+VStem: 40 100<420 510> 50 160<0 90> 110 100<90 150> 300 100<450 510> 490 100<100 600>
+AnchorPoint: "mark-th-above" 590 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-214 237 m 1xe6
- 470 100 l 1
- 470 600 l 1
- 570 600 l 1
- 570 0 l 1
- 470 0 l 1
- 190 150 l 1xce
- 190 0 l 1
- 30 0 l 1
- 30 90 l 1xd6
- 90 90 l 1
- 90 240 l 1xce
- 280 450 l 1
- 280 510 l 1
- 200 460 l 1
- 120 510 l 1
- 120 420 l 1
- 20 420 l 1
- 20 600 l 1
- 120 600 l 1
- 200 550 l 1
- 280 600 l 1
- 380 600 l 1
- 380 420 l 1
- 214 237 l 1xe6
+234 237 m 1xe6
+ 490 100 l 1
+ 490 600 l 1
+ 590 600 l 1
+ 590 0 l 1
+ 490 0 l 1
+ 210 150 l 1xce
+ 210 0 l 1
+ 50 0 l 1
+ 50 90 l 1xd6
+ 110 90 l 1
+ 110 240 l 1xce
+ 300 450 l 1
+ 300 510 l 1
+ 220 460 l 1
+ 140 510 l 1
+ 140 420 l 1
+ 40 420 l 1
+ 40 600 l 1
+ 140 600 l 1
+ 220 550 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 420 l 1
+ 234 237 l 1xe6
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E07
 Encoding: 3591 3591 12
-Width: 600
+Width: 570
 VWidth: 0
 Flags: W
-HStem: 0 90<340 410> 510 90<350 410>
-VStem: 350 160<510 600> 410 100<90 510>
-AnchorPoint: "mark-th-above" 510 680 basechar 0
+HStem: 0 90<330 380> 510 90<320 380>
+VStem: 320 160<510 600> 380 100<90 510>
+AnchorPoint: "mark-th-above" 480 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-290 0 m 1xd0
- 40 420 l 1
- 150 420 l 1
- 340 90 l 1
- 410 90 l 1
- 410 510 l 1xd0
- 350 510 l 1
- 350 600 l 1
- 510 600 l 5xe0
- 510 0 l 1
- 290 0 l 1xd0
+280 0 m 1xd0
+ 30 420 l 1
+ 140 420 l 1
+ 330 90 l 1
+ 380 90 l 1
+ 380 510 l 1xd0
+ 320 510 l 1
+ 320 600 l 1
+ 480 600 l 1xe0
+ 480 0 l 1
+ 280 0 l 1xd0
 EndSplineSet
 Validated: 1
 EndChar
@@ -536,28 +536,28 @@ EndChar
 
 StartChar: uni0E20
 Encoding: 3616 3616 15
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: 0 90<30 90> 510 90<50 90 190 470>
-VStem: 30 160<0 90> 90 100<90 510> 470 100<0 510>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<40 100> 510 90<60 100 200 480>
+VStem: 40 160<0 90> 100 100<90 510> 480 100<0 510>
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-470 0 m 1xd8
- 470 510 l 1
- 190 510 l 1xd8
- 190 0 l 1
- 30 0 l 1
- 30 90 l 1xe8
- 90 90 l 1
- 90 510 l 1
- 50 510 l 1
- 50 600 l 1
- 570 600 l 1
- 570 0 l 1
- 470 0 l 1xd8
+480 0 m 1xd8
+ 480 510 l 1
+ 200 510 l 1xd8
+ 200 0 l 1
+ 40 0 l 1
+ 40 90 l 1xe8
+ 100 90 l 1
+ 100 510 l 1
+ 60 510 l 1
+ 60 600 l 1
+ 580 600 l 1
+ 580 0 l 1
+ 480 0 l 1xd8
 EndSplineSet
 Validated: 1
 EndChar
@@ -597,13 +597,13 @@ Encoding: 3605 3605 17
 Width: 660
 VWidth: 0
 Flags: W
-HStem: 0 90<190 300> 240 90<260 300> 580 20G<90 221.111 438.889 570>
+HStem: 0 90<190 300> 240 90<260 300>
 VStem: 90 100<90 510> 260 130<240 330> 300 90<90 240> 470 100<0 510>
 AnchorPoint: "mark-th-above" 570 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-90 0 m 1xf6
+90 0 m 1xec
  90 600 l 1
  190 600 l 1
  330 510 l 1
@@ -616,12 +616,12 @@ SplineSet
  190 510 l 1
  190 90 l 1
  300 90 l 1
- 300 240 l 1xf6
+ 300 240 l 1xec
  260 240 l 1
  260 330 l 1
- 390 330 l 1xfa
+ 390 330 l 1xf4
  390 0 l 1
- 90 0 l 1xf6
+ 90 0 l 1xec
 EndSplineSet
 Validated: 1
 EndChar
@@ -643,37 +643,37 @@ EndChar
 
 StartChar: uni0E08
 Encoding: 3592 3592 19
-Width: 660
+Width: 630
 VWidth: 0
 Flags: W
-HStem: 0 90<380 470> 240 90<140 200> 400 200<90 190> 510 90<190 470>
-VStem: 90 100<400 510> 470 100<90 510>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<350 440> 240 90<110 170> 400 200<60 160> 510 90<160 440>
+VStem: 60 100<400 510> 440 100<90 510>
+AnchorPoint: "mark-th-above" 540 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-320 0 m 1xdc
- 200 240 l 1
- 140 240 l 1
- 140 330 l 1
- 270 330 l 1
- 380 90 l 1
- 470 90 l 1
- 470 510 l 1
- 190 510 l 1xdc
- 190 400 l 1
- 90 400 l 1
- 90 600 l 1xec
- 570 600 l 1
- 570 0 l 1
- 320 0 l 1xdc
+290 0 m 1xdc
+ 170 240 l 1
+ 110 240 l 1
+ 110 330 l 1
+ 240 330 l 1
+ 350 90 l 1
+ 440 90 l 1
+ 440 510 l 1
+ 160 510 l 1xdc
+ 160 400 l 1
+ 60 400 l 1
+ 60 600 l 1xec
+ 540 600 l 1
+ 540 0 l 1
+ 290 0 l 1xdc
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E09
 Encoding: 3593 3593 20
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
 HStem: 0 90<570 630> 240 90<60 120> 400 200<60 160> 510 90<160 470>
@@ -708,7 +708,7 @@ EndChar
 
 StartChar: uni0E0A
 Encoding: 3594 3594 21
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
 HStem: 0 90<190 470> 510 90<90 220>
@@ -742,58 +742,57 @@ EndChar
 
 StartChar: uni0E0B
 Encoding: 3595 3595 22
-Width: 660
+Width: 690
 VWidth: 0
-Flags: W
-HStem: 0 90<190 470> 420 180<20 120>
-VStem: 20 100<420 510> 90 100<90 210> 470 100<90 420>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+Flags: WO
+HStem: 0 90<210 490> 420 180<40 140>
+VStem: 40 100<420 510> 110 100<90 210> 490 100<90 420>
+AnchorPoint: "mark-th-above" 590 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1xe8
- 90 0 l 1
- 90 240 l 1xd8
- 280 450 l 1
- 280 510 l 1
- 200 460 l 1
- 120 510 l 1
- 120 420 l 1
- 20 420 l 1
- 20 600 l 1
- 120 600 l 1
- 200 550 l 1
- 280 600 l 1
- 380 600 l 1
- 380 519.12 l 1
- 520 660 l 1
- 630 660 l 1
- 470 500 l 1
- 570 500 l 1
- 570 0 l 1xe8
-380 420 m 1
- 190 210 l 1
- 190 90 l 1
- 470 90 l 1
- 470 420 l 1
- 380 420 l 1
+590 0 m 1xe8
+ 110 0 l 1
+ 110 240 l 1xd8
+ 300 450 l 1
+ 300 510 l 1
+ 220 460 l 1
+ 140 510 l 1
+ 140 420 l 1
+ 40 420 l 1
+ 40 600 l 1
+ 140 600 l 1
+ 220 550 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 519 l 1
+ 540 660 l 1
+ 650 660 l 1
+ 490 500 l 1
+ 590 500 l 1
+ 590 0 l 1xe8
+400 420 m 1
+ 210 210 l 1
+ 210 90 l 1
+ 490 90 l 1
+ 490 420 l 1
+ 400 420 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E0C
 Encoding: 3596 3596 23
-Width: 990
+Width: 970
 VWidth: 0
 Flags: W
 HStem: 0 90<190 270 400 460> 510 90<50 90 190 460>
-VStem: 90 180<0 90> 90 100<90 510> 400 160<0 90> 460 100<90 150 250 510> 800 100<100 600>
-AnchorPoint: "mark-th-above" 900 680 basechar 0
+VStem: 90 180<0 90> 90 100<90 510> 400 160<0 90> 460 100<90 150 250 510> 780 100<100 600>
+AnchorPoint: "mark-th-above" 880 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-900 0 m 1xd6
- 800 0 l 1
+880 0 m 1xd6
+ 780 0 l 1
  560 150 l 1xd6
  560 0 l 1
  400 0 l 1
@@ -810,49 +809,49 @@ SplineSet
  50 600 l 1
  560 600 l 1
  560 250 l 1
- 800 100 l 1
- 800 600 l 25
- 900 600 l 25
- 900 0 l 1xd6
+ 780 100 l 1
+ 780 600 l 25
+ 880 600 l 25
+ 880 0 l 1xd6
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E0D
 Encoding: 3597 3597 24
-Width: 990
+Width: 970
 VWidth: 0
 Flags: W
-HStem: -180 120<490 590> -180 80<590 880> 0 90<190 270 560 800> 510 90<50 90 190 460>
-VStem: 90 180<0 90> 90 100<90 510> 460 100<90 510> 490 100<-100 -60> 800 100<90 600>
-AnchorPoint: "mark-th-above" 900 680 basechar 0
+HStem: -180 120<490 590> -180 80<590 880> 0 90<190 270 560 780> 510 90<50 90 190 460>
+VStem: 90 180<0 90> 90 100<90 510> 460 100<90 510> 490 100<-100 -60> 780 100<90 600>
+AnchorPoint: "mark-th-above" 880 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-490 -60 m 5xb180
- 590 -60 l 5xb180
- 590 -100 l 5
- 880 -100 l 5
- 880 -180 l 5x7180
- 490 -180 l 5
- 490 -60 l 5xb180
-460 0 m 5x3680
- 460 510 l 5
- 190 510 l 5
- 190 90 l 5x3680
- 270 90 l 5
- 270 0 l 5
- 90 0 l 5x3880
- 90 510 l 5
- 50 510 l 5
- 50 600 l 5
- 560 600 l 5
- 560 90 l 5
- 800 90 l 5
- 800 600 l 29
- 900 600 l 29
- 900 0 l 5
- 460 0 l 5x3680
+490 -60 m 1xb180
+ 590 -60 l 1xb180
+ 590 -100 l 1
+ 880 -100 l 1
+ 880 -180 l 1x7180
+ 490 -180 l 1
+ 490 -60 l 1xb180
+460 0 m 1x3680
+ 460 510 l 1
+ 190 510 l 1
+ 190 90 l 1x3680
+ 270 90 l 1
+ 270 0 l 1
+ 90 0 l 1x3880
+ 90 510 l 1
+ 50 510 l 1
+ 50 600 l 1
+ 560 600 l 1
+ 560 90 l 1
+ 780 90 l 1
+ 780 600 l 25
+ 880 600 l 25
+ 880 0 l 1
+ 460 0 l 1x3680
 EndSplineSet
 Validated: 1
 Substitution2: "Thai Descless" uni0E0D.descless
@@ -860,24 +859,24 @@ EndChar
 
 StartChar: uni0E13
 Encoding: 3603 3603 25
-Width: 990
+Width: 970
 VWidth: 0
 Flags: W
-HStem: 0 90<190 270 900 960> 510 90<50 90 190 460>
-VStem: 90 180<0 90> 90 100<90 510> 460 100<100 510> 800 160<0 90> 800 100<90 150 250 600>
-AnchorPoint: "mark-th-above" 900 680 basechar 0
+HStem: 0 90<190 270 880 940> 510 90<50 90 190 460>
+VStem: 90 180<0 90> 90 100<90 510> 460 100<100 510> 780 160<0 90> 780 100<90 150 250 600>
+AnchorPoint: "mark-th-above" 880 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
 560 100 m 1xd8
- 800 250 l 1
- 800 600 l 1
- 900 600 l 1
- 900 90 l 1xda
- 960 90 l 1
- 960 0 l 1
- 800 0 l 1xcc
- 800 150 l 1
+ 780 250 l 1
+ 780 600 l 1
+ 880 600 l 1
+ 880 90 l 1xda
+ 940 90 l 1
+ 940 0 l 1
+ 780 0 l 1xcc
+ 780 150 l 1
  560 0 l 1
  460 0 l 1
  460 510 l 1
@@ -897,24 +896,24 @@ EndChar
 
 StartChar: uni0E12
 Encoding: 3602 3602 26
-Width: 990
+Width: 970
 VWidth: 0
 Flags: W
-HStem: 0 90<190 300 430 490> 240 90<260 300> 580 20G<90 223.333 456.667 590 800 900>
-VStem: 90 100<90 510> 260 130<240 330> 300 90<90 240> 430 160<0 90> 490 100<90 150 250 510> 800 100<100 600>
-AnchorPoint: "mark-th-above" 900 680 basechar 0
+HStem: 0 90<190 300 430 490> 240 90<260 300>
+VStem: 90 100<90 510> 260 130<240 330> 300 90<90 240> 430 160<0 90> 490 100<90 150 250 510> 780 100<100 600>
+AnchorPoint: "mark-th-above" 880 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-490 510 m 1xf180
+490 510 m 1xe3
  340 420 l 1
  190 510 l 1
  190 90 l 1
  300 90 l 1
- 300 240 l 1xf580
+ 300 240 l 1xeb
  260 240 l 1
  260 330 l 1
- 390 330 l 1xf880
+ 390 330 l 1xf1
  390 0 l 1
  90 0 l 1
  90 600 l 1
@@ -923,54 +922,54 @@ SplineSet
  490 600 l 1
  590 600 l 1
  590 250 l 1
- 800 100 l 1
- 800 600 l 25
- 900 600 l 25
- 900 0 l 1
- 800 0 l 1
- 590 150 l 1xf580
+ 780 100 l 1
+ 780 600 l 25
+ 880 600 l 25
+ 880 0 l 1
+ 780 0 l 1
+ 590 150 l 1xeb
  590 0 l 1
  430 0 l 1
- 430 90 l 1xf280
+ 430 90 l 1xe5
  490 90 l 1
- 490 510 l 1xf180
+ 490 510 l 1xe3
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E11
 Encoding: 3601 3601 27
-Width: 660
+Width: 690
 VWidth: 0
 Flags: W
-HStem: 0 21G<90 190 470 570> 420 180<20 120>
-VStem: 20 100<420 510> 90 100<0 210> 470 100<0 490>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 21G<110 210 500 600> 420 180<40 140>
+VStem: 40 100<420 510> 110 100<0 210> 500 100<0 490>
+AnchorPoint: "mark-th-above" 600 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-190 210 m 1xd8
- 190 0 l 1
- 90 0 l 1
- 90 240 l 1xd8
- 279 450 l 1
- 280 510 l 1
- 200 460 l 1
- 120 510 l 1
- 120 420 l 1
- 20 420 l 1
- 20 600 l 1
- 120 600 l 1xe8
- 200 550 l 1
- 280 600 l 1
- 380 600 l 1
- 380 510 l 1
- 470 600 l 1
- 570 600 l 1
- 570 0 l 1
- 470 0 l 1
- 470 490 l 1
- 190 210 l 1xd8
+210 210 m 1xd8
+ 210 0 l 1
+ 110 0 l 1
+ 110 240 l 1xd8
+ 299 450 l 1
+ 300 510 l 1
+ 220 460 l 1
+ 140 510 l 1
+ 140 420 l 1
+ 40 420 l 1
+ 40 600 l 1
+ 140 600 l 1xe8
+ 220 550 l 1
+ 300 600 l 1
+ 400 600 l 1
+ 400 510 l 1
+ 500 600 l 1
+ 600 600 l 1
+ 600 0 l 5
+ 500 0 l 1
+ 500 490 l 1
+ 210 210 l 1xd8
 EndSplineSet
 Validated: 1
 EndChar
@@ -1004,53 +1003,53 @@ EndChar
 
 StartChar: uni0E26
 Encoding: 3622 3622 29
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: 0 90<30 90> 510 90<50 90 190 470>
-VStem: 30 160<0 90> 90 100<90 510> 470 100<-240 510>
+HStem: 0 90<40 100> 510 90<60 100 200 480>
+VStem: 40 160<0 90> 100 100<90 510> 480 100<-240 510>
 LayerCount: 2
 Fore
 SplineSet
-470 -240 m 5xd8
- 470 510 l 1
- 190 510 l 1xd8
- 190 0 l 1
- 30 0 l 1
- 30 90 l 1xe8
- 90 90 l 1
- 90 510 l 1
- 50 510 l 1
- 50 600 l 1
- 570 600 l 1
- 570 -240 l 5
- 470 -240 l 5xd8
+480 -240 m 1xd8
+ 480 510 l 1
+ 200 510 l 1xd8
+ 200 0 l 1
+ 40 0 l 1
+ 40 90 l 1xe8
+ 100 90 l 1
+ 100 510 l 1
+ 60 510 l 1
+ 60 600 l 1
+ 580 600 l 1
+ 580 -240 l 1
+ 480 -240 l 1xd8
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E27
 Encoding: 3623 3623 30
-Width: 660
+Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 90<410 470> 400 200<90 190> 510 90<190 470>
-VStem: 90 100<400 510> 410 160<0 90> 470 100<90 510>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<350 410> 400 200<60 160> 510 90<160 410>
+VStem: 60 100<400 510> 350 160<0 90> 410 100<90 510>
+AnchorPoint: "mark-th-above" 510 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-410 90 m 1xb8
- 470 90 l 1
- 470 510 l 1
- 190 510 l 1xb4
- 190 400 l 1
- 90 400 l 1
- 90 600 l 1xd4
- 570 600 l 1xb4
- 570 0 l 1
- 410 0 l 1
- 410 90 l 1xb8
+350 90 m 1xb8
+ 410 90 l 1
+ 410 510 l 1
+ 160 510 l 1xb4
+ 160 400 l 1
+ 60 400 l 1
+ 60 600 l 1xd4
+ 510 600 l 1xb4
+ 510 0 l 1
+ 350 0 l 1
+ 350 90 l 1xb8
 EndSplineSet
 Validated: 1
 EndChar
@@ -1090,68 +1089,68 @@ EndChar
 
 StartChar: uni0E29
 Encoding: 3625 3625 32
-Width: 660
+Width: 690
 VWidth: 0
 Flags: W
-HStem: 0 90<190 470> 240 130<290 370> 240 90<370 470 570 660> 510 90<30 90>
-VStem: 30 160<510 600> 90 100<90 510> 290 80<330 370> 470 100<90 240 330 600>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<200 480> 240 130<300 380> 240 90<380 480 580 670> 510 90<40 100>
+VStem: 40 160<510 600> 100 100<90 510> 300 80<330 370> 480 100<90 240 330 600>
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1xb7
- 90 0 l 1
- 90 510 l 1xb7
- 30 510 l 1
- 30 600 l 1
- 190 600 l 1xbb
- 190 90 l 1
- 470 90 l 1
- 470 240 l 1xb7
- 290 240 l 1
- 290 370 l 1
- 370 370 l 1xd7
- 370 330 l 1
- 470 330 l 1
- 470 600 l 1
- 570 600 l 1
- 570 330 l 1
- 660 330 l 1
- 660 240 l 1
- 570 240 l 1
- 570 0 l 1xb7
+580 0 m 1xb7
+ 100 0 l 1
+ 100 510 l 1xb7
+ 40 510 l 1
+ 40 600 l 1
+ 200 600 l 1xbb
+ 200 90 l 1
+ 480 90 l 1
+ 480 240 l 1xb7
+ 300 240 l 1
+ 300 370 l 1
+ 380 370 l 1xd7
+ 380 330 l 1
+ 480 330 l 1
+ 480 600 l 1
+ 580 600 l 1
+ 580 330 l 1
+ 670 330 l 1
+ 670 240 l 1
+ 580 240 l 1
+ 580 0 l 1xb7
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E2B
 Encoding: 3627 3627 33
-Width: 660
+Width: 680
 VWidth: 0
 Flags: W
-HStem: 0 21G<90 190 470 570> 510 90<30 90 570 630>
-VStem: 30 160<510 600> 90 100<0 260 360 510> 470 160<510 600> 470 100<0 410>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 21G<100 200 480 580> 510 90<40 100 580 640>
+VStem: 40 160<510 600> 100 100<0 260 360 510> 480 160<510 600> 480 100<0 410>
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1xc4
- 470 0 l 1
- 470 410 l 1
- 190 260 l 1
- 190 0 l 1
- 90 0 l 1
- 90 510 l 1xd4
- 30 510 l 1
- 30 600 l 1
- 190 600 l 1xe0
- 190 360 l 1
- 470 510 l 1
- 470 600 l 1
- 630 600 l 1
- 630 510 l 1xd8
- 570 510 l 1
- 570 0 l 1xc4
+580 0 m 1xc4
+ 480 0 l 1
+ 480 410 l 1
+ 200 260 l 1
+ 200 0 l 1
+ 100 0 l 1
+ 100 510 l 1xd4
+ 40 510 l 1
+ 40 600 l 1
+ 200 600 l 1xe0
+ 200 360 l 1
+ 480 510 l 1
+ 480 600 l 1
+ 640 600 l 1
+ 640 510 l 1xd8
+ 580 510 l 1
+ 580 0 l 1xc4
 EndSplineSet
 Validated: 1
 EndChar
@@ -1408,45 +1407,45 @@ EndChar
 
 StartChar: uni0E10
 Encoding: 3600 3600 42
-Width: 660
+Width: 640
 VWidth: 0
 Flags: W
-HStem: -240 180<470 570> -240 150<100 190> 0 90<380 470> 150 90<140 200> 300 90<190 470> 510 90<190 570>
-VStem: 90 100<390 510> 100 90<-156 -90> 470 100<-160 -60 90 300>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: -240 180<450 550> -240 150<80 170> 0 90<360 450> 150 90<120 180> 300 90<170 450> 510 90<170 550>
+VStem: 70 100<390 510> 80 90<-156 -90> 450 100<-160 -60 90 300>
+AnchorPoint: "mark-th-above" 550 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-570 -60 m 5xbd80
- 570 -240 l 5
- 470 -240 l 13xbd80
- 330 -140 l 29
- 190 -240 l 29
- 100 -240 l 29
- 100 -90 l 29
- 190 -90 l 29x7d80
- 190 -156 l 29
- 330 -60 l 29
- 470 -160 l 21
- 470 -60 l 5
- 570 -60 l 5xbd80
-90 600 m 5x3e80
- 570 600 l 5
- 570 510 l 5
- 190 510 l 5
- 190 390 l 5
- 570 390 l 5
- 570 0 l 5
- 320 0 l 5
- 200 150 l 5
- 140 150 l 5
- 140 240 l 5
- 270 240 l 5
- 380 90 l 5
- 470 90 l 5
- 470 300 l 5
- 90 300 l 5
- 90 600 l 5x3e80
+550 -60 m 1xbd80
+ 550 -240 l 1
+ 450 -240 l 9xbd80
+ 310 -140 l 25
+ 170 -240 l 25
+ 80 -240 l 25
+ 80 -90 l 25
+ 170 -90 l 25x7d80
+ 170 -156 l 25
+ 310 -60 l 25
+ 450 -160 l 17
+ 450 -60 l 1
+ 550 -60 l 1xbd80
+70 600 m 1x3e80
+ 550 600 l 1
+ 550 510 l 1
+ 170 510 l 1
+ 170 390 l 1
+ 550 390 l 1
+ 550 0 l 1
+ 300 0 l 1
+ 180 150 l 1
+ 120 150 l 1
+ 120 240 l 1
+ 250 240 l 1
+ 360 90 l 1
+ 450 90 l 1
+ 450 300 l 1
+ 70 300 l 1
+ 70 600 l 1x3e80
 EndSplineSet
 Validated: 1
 Substitution2: "Thai Descless" uni0E10.descless
@@ -1454,28 +1453,28 @@ EndChar
 
 StartChar: uni0E23
 Encoding: 3619 3619 43
-Width: 660
+Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 90<380 470> 300 90<190 470> 510 90<190 570>
-VStem: 90 100<390 510> 470 100<90 300>
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: 0 90<320 410> 300 90<160 410> 510 90<160 510>
+VStem: 60 100<390 510> 410 100<90 300>
+AnchorPoint: "mark-th-above" 510 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-380 90 m 1
- 470 90 l 1
- 470 300 l 1
- 90 300 l 1
- 90 600 l 1
- 570 600 l 1
- 570 510 l 1
- 190 510 l 1
- 190 390 l 1
- 570 390 l 1
- 570 0 l 1
- 380 0 l 1
- 380 90 l 1
+320 90 m 1
+ 410 90 l 1
+ 410 300 l 1
+ 60 300 l 1
+ 60 600 l 1
+ 510 600 l 1
+ 510 510 l 1
+ 160 510 l 1
+ 160 390 l 1
+ 510 390 l 1
+ 510 0 l 1
+ 320 0 l 1
+ 320 90 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -1512,72 +1511,72 @@ EndChar
 
 StartChar: uni0E0E
 Encoding: 3598 3598 45
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: -210 140<90 190> 0 90<30 90> 510 90<50 90 190 470>
-VStem: 30 160<0 90> 90 100<-210 -150 90 510> 470 100<-160 510>
-AnchorPoint: "mark-th-below" 570 -280 basechar 0
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: -210 140<100 200> 0 90<40 100> 510 90<60 100 200 480>
+VStem: 40 160<0 90> 100 100<-210 -150 90 510> 480 100<-160 510>
+AnchorPoint: "mark-th-below" 580 -280 basechar 0
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-470 -240 m 1xec
- 190 -150 l 1
- 190 -210 l 1
- 90 -210 l 1
- 90 -70 l 1
- 190 -70 l 1
- 470 -160 l 1
- 470 510 l 1
- 190 510 l 1xec
- 190 0 l 1
- 30 0 l 1
- 30 90 l 1xf4
- 90 90 l 1
- 90 510 l 1
- 50 510 l 1
- 50 600 l 1
- 570 600 l 1
- 570 -240 l 1
- 470 -240 l 1xec
+480 -240 m 1xec
+ 200 -150 l 1
+ 200 -210 l 1
+ 100 -210 l 1
+ 100 -70 l 1
+ 200 -70 l 1
+ 480 -160 l 1
+ 480 510 l 1
+ 200 510 l 1xec
+ 200 0 l 1
+ 40 0 l 1
+ 40 90 l 1xf4
+ 100 90 l 1
+ 100 510 l 1
+ 60 510 l 1
+ 60 600 l 1
+ 580 600 l 1
+ 580 -240 l 1
+ 480 -240 l 1xec
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0E0F
 Encoding: 3599 3599 46
-Width: 660
+Width: 670
 VWidth: 0
 Flags: W
-HStem: -240 150<60 150> 0 90<30 90> 510 90<50 90 190 470>
-VStem: 30 160<0 90> 60 91<-156 -90> 90 100<90 510> 470 100<-160 510>
-AnchorPoint: "mark-th-below" 570 -280 basechar 0
-AnchorPoint: "mark-th-above" 570 680 basechar 0
+HStem: -240 150<70 160> 0 90<40 100> 510 90<60 100 200 480>
+VStem: 40 160<0 90> 70 91<-156 -90> 100 100<90 510> 480 100<-160 510>
+AnchorPoint: "mark-th-below" 580 -280 basechar 0
+AnchorPoint: "mark-th-above" 580 680 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-470 -240 m 9xe6
- 310 -140 l 25
- 150 -240 l 25
- 60 -240 l 25
- 60 -90 l 25
- 150 -90 l 25
- 151 -156 l 25xea
- 310 -60 l 25
- 470 -160 l 17
- 470 510 l 1
- 190 510 l 1xe6
- 190 0 l 1
- 30 0 l 1
- 30 90 l 1xf2
- 90 90 l 1
- 90 510 l 1
- 50 510 l 1
- 50 600 l 1
- 570 600 l 1
- 570 -240 l 1
- 470 -240 l 9xe6
+480 -240 m 9xe6
+ 320 -140 l 25
+ 160 -240 l 25
+ 70 -240 l 25
+ 70 -90 l 25
+ 160 -90 l 25
+ 161 -156 l 25xea
+ 320 -60 l 25
+ 480 -160 l 17
+ 480 510 l 1
+ 200 510 l 1xe6
+ 200 0 l 1
+ 40 0 l 1
+ 40 90 l 1xf2
+ 100 90 l 1
+ 100 510 l 1
+ 60 510 l 1
+ 60 600 l 1
+ 580 600 l 1
+ 580 -240 l 1
+ 480 -240 l 9xe6
 EndSplineSet
 Validated: 1
 EndChar
@@ -1910,18 +1909,18 @@ Encoding: 3648 3648 60
 Width: 300
 VWidth: 0
 Flags: W
-HStem: 0 90<190 270> 580 20G<90 190>
+HStem: 0 90<190 270>
 VStem: 90 180<0 90> 90 100<90 600>
 LayerCount: 2
 Fore
 SplineSet
-190 600 m 1xd0
- 190 90 l 1xd0
+190 600 m 1xa0
+ 190 90 l 1xa0
  270 90 l 1
  270 0 l 1
- 90 0 l 1xe0
+ 90 0 l 1xc0
  90 600 l 1
- 190 600 l 1xd0
+ 190 600 l 1xa0
 EndSplineSet
 Validated: 1
 EndChar
@@ -1931,7 +1930,7 @@ Encoding: 3649 3649 61
 Width: 540
 VWidth: 0
 Flags: W
-HStem: 0 90<190 270 430 510> 580 20<90 190 330 430>
+HStem: 0 90<190 270 430 510>
 VStem: 90 100<90 600> 90 180<0 90> 330 100<90 600> 330 180<0 90>
 LayerCount: 2
 Fore
@@ -2033,7 +2032,7 @@ StartChar: uni0E47
 Encoding: 3655 3655 65
 Width: 0
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 690 110<-150 -90> 840 120<-160 -90> 840 60<-330 -160>
 VStem: -390 60<760 840> -160 70<900 960> -150 60<760 800>
 AnchorPoint: "mark-th-left-above" -120 680 mark 0
@@ -2058,6 +2057,7 @@ SplineSet
  -150 760 l 1
  -150 800 l 1xb4
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni0E4C
@@ -2195,12 +2195,12 @@ Encoding: 3654 3654 71
 Width: 660
 VWidth: 0
 Flags: W
-HStem: 300 90<190 250> 580 20G<90 221.111 438.889 570>
+HStem: 300 90<190 250>
 VStem: 90 160<300 390> 90 100<390 510> 470 100<-240 510>
 LayerCount: 2
 Fore
 SplineSet
-90 300 m 1xe8
+90 300 m 1xd0
  90 600 l 1
  190 600 l 1
  330 510 l 1
@@ -2211,10 +2211,10 @@ SplineSet
  470 510 l 1
  330 420 l 1
  190 510 l 1
- 190 390 l 9xd8
+ 190 390 l 9xb0
  250 390 l 25
  250 300 l 25
- 90 300 l 1xe8
+ 90 300 l 1xd0
 EndSplineSet
 Validated: 1
 EndChar

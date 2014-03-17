@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0E12" format="1">
-  <advance width="990"/>
+  <advance width="970"/>
   <unicode hex="0E12"/>
   <outline>
     <contour>
@@ -21,11 +21,11 @@
       <point x="490" y="600" type="line"/>
       <point x="590" y="600" type="line"/>
       <point x="590" y="250" type="line"/>
-      <point x="800" y="100" type="line"/>
-      <point x="800" y="600" type="line"/>
-      <point x="900" y="600" type="line"/>
-      <point x="900" y="0" type="line"/>
-      <point x="800" y="0" type="line"/>
+      <point x="780" y="100" type="line"/>
+      <point x="780" y="600" type="line"/>
+      <point x="880" y="600" type="line"/>
+      <point x="880" y="0" type="line"/>
+      <point x="780" y="0" type="line"/>
       <point x="590" y="150" type="line"/>
       <point x="590" y="0" type="line"/>
       <point x="430" y="0" type="line"/>
@@ -46,10 +46,6 @@
 	  <dict>
 	    <key>position</key>	    <integer>240</integer>
 	    <key>width</key>	    <integer>90</integer>
-	  </dict>
-	  <dict>
-	    <key>position</key>	    <integer>580</integer>
-	    <key>width</key>	    <integer>20</integer>
 	  </dict>
 	</array>
 	<key>vhints</key>
@@ -86,7 +82,7 @@
 	  </dict>
 	  <dict>
 	    <key>position</key>
-	    <integer>800</integer>
+	    <integer>780</integer>
 	    <key>width</key>
 	    <integer>100</integer>
 	  </dict>
