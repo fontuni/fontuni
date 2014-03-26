@@ -1,0 +1,31 @@
+StartChar: uni0E28
+Encoding: 200 3624 31
+Width: 660
+VWidth: 0
+Flags: W
+HStem: 0 21G<90 190 470 570> 200 130<290 370> 240 90<190 290> 510 90<190 470>
+VStem: 90 100<0 240 330 510> 290 80<200 240> 470 100<0 510 600 660>
+CounterMasks: 1 0e
+LayerCount: 2
+Fore
+SplineSet
+90 600 m 1xbe
+ 470 600 l 1
+ 470 660 l 1
+ 570 660 l 1
+ 570 0 l 1
+ 470 0 l 1
+ 470 510 l 1
+ 190 510 l 1
+ 190 330 l 1xbe
+ 370 330 l 1
+ 370 200 l 1
+ 290 200 l 1xde
+ 290 240 l 1
+ 190 240 l 1
+ 190 0 l 1
+ 90 0 l 1
+ 90 600 l 1xbe
+EndSplineSet
+Validated: 1
+EndChar

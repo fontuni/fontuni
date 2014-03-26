@@ -1,0 +1,13 @@
+StartChar: uni0E33.alt
+Encoding: 219 -1 116
+Width: 520
+VWidth: 0
+Flags: W
+HStem: 0 21<330 430> 400 200<40 140> 510 90<140 330> 690 50<-350 -300> 790 50<-350 -300>
+VStem: -410 60<740 790> -300 60<740 790> 40 100<400 510> 330 100<0 510>
+LayerCount: 2
+Fore
+Refer: 110 -1 S 1 0 0 1 0 0 2
+Refer: 53 3634 S 1 0 0 1 0 0 2
+Validated: 1
+EndChar

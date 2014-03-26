@@ -1,0 +1,28 @@
+StartChar: uni0E2D
+Encoding: 205 3629 0
+Width: 660
+VWidth: 0
+Flags: W
+HStem: 0 90<190 470> 210 90<190 270> 400 200<90 190> 510 90<190 470>
+VStem: 90 180<210 300> 90 100<90 210 400 510> 470 100<90 510>
+LayerCount: 2
+Fore
+SplineSet
+90 300 m 1xda
+ 270 300 l 25
+ 270 210 l 25xda
+ 190 210 l 17
+ 190 90 l 1
+ 470 90 l 1
+ 470 510 l 1
+ 190 510 l 1xd6
+ 190 400 l 1
+ 90 400 l 1
+ 90 600 l 1xe6
+ 570 600 l 1
+ 570 0 l 1
+ 90 0 l 1xd6
+ 90 300 l 1xda
+EndSplineSet
+Validated: 1
+EndChar

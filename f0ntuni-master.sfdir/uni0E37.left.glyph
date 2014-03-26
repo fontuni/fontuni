@@ -1,0 +1,12 @@
+StartChar: uni0E37.left
+Encoding: 278 -1 108
+Width: 0
+VWidth: 0
+Flags: W
+HStem: 690 60<-370 -320> 690 80<-580 -440> 690 150<-440 -370 -320 -250>
+VStem: -440 70<770 840> -320 70<750 840>
+LayerCount: 2
+Fore
+Refer: 51 3639 S 1 0 0 1 -160 0 2
+Validated: 1
+EndChar

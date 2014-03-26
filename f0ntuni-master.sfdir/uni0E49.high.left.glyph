@@ -1,0 +1,12 @@
+StartChar: uni0E49.high.left
+Encoding: 270 -1 87
+Width: 0
+VWidth: 0
+Flags: W
+HStem: 900 70<-460 -400 -320 -180> 1020 60<-440 -400>
+VStem: -440 120<1020 1080> -400 80<970 1020>
+LayerCount: 2
+Fore
+Refer: 57 3657 S 1 0 0 1 -160 0 2
+Validated: 1
+EndChar

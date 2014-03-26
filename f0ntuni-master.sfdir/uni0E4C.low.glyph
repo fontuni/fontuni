@@ -1,0 +1,13 @@
+StartChar: uni0E4C.low
+Encoding: 262 -1 78
+Width: 0
+VWidth: 0
+Flags: W
+HStem: 690 120<-290 -190> 740 70<-190 -60>
+VStem: -290 100<690 740>
+LayerCount: 2
+Fore
+Refer: 66 3660 S 1 0 0 1 0 -190 2
+Validated: 1
+Substitution2: "TH Tone Low to High" uni0E4C.high
+EndChar

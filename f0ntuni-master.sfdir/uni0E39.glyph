@@ -1,0 +1,25 @@
+StartChar: uni0E39
+Encoding: 217 3641 56
+Width: 0
+VWidth: 0
+Flags: W
+HStem: -240 60<-270 -180> -140 80<-410 -360>
+VStem: -410 140<-140 -60> -360 90<-180 -140> -180 90<-180 -58>
+LayerCount: 2
+Fore
+SplineSet
+-360 -240 m 1xd8
+ -360 -140 l 1xd8
+ -410 -140 l 1
+ -410 -60 l 1
+ -270 -60 l 1xe8
+ -270 -180 l 1
+ -180 -180 l 1
+ -180 -58 l 1
+ -90 -58 l 1
+ -90 -240 l 1
+ -360 -240 l 1xd8
+EndSplineSet
+Validated: 1
+Substitution2: "TH Vow Lower" uni0E39.low
+EndChar

@@ -1,0 +1,26 @@
+StartChar: uni0E16
+Encoding: 182 3606 13
+Width: 660
+VWidth: 0
+Flags: W
+HStem: 0 90<190 270> 510 90<50 90 190 470>
+VStem: 90 180<0 90> 90 100<90 510> 470 100<0 510>
+LayerCount: 2
+Fore
+SplineSet
+470 0 m 1xd8
+ 470 510 l 1
+ 190 510 l 1
+ 190 90 l 1xd8
+ 270 90 l 1
+ 270 0 l 1
+ 90 0 l 1xe8
+ 90 510 l 1
+ 50 510 l 1
+ 50 600 l 1
+ 570 600 l 1
+ 570 0 l 1
+ 470 0 l 1xd8
+EndSplineSet
+Validated: 1
+EndChar

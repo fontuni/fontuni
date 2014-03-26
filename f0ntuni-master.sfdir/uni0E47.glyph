@@ -1,0 +1,31 @@
+StartChar: uni0E47
+Encoding: 231 3655 65
+Width: 0
+VWidth: 0
+Flags: W
+HStem: 690 110<-150 -90> 840 120<-160 -90> 840 60<-330 -160>
+VStem: -390 60<760 840> -160 70<900 960> -150 60<760 800>
+LayerCount: 2
+Fore
+SplineSet
+-150 800 m 1xb4
+ -90 800 l 1
+ -90 690 l 1
+ -150 690 l 1xb4
+ -240 730 l 1
+ -330 690 l 1
+ -390 690 l 1
+ -390 900 l 1
+ -160 900 l 1xb8
+ -160 960 l 1
+ -90 960 l 1xd8
+ -90 840 l 1xd4
+ -330 840 l 1
+ -330 760 l 1
+ -240 800 l 1
+ -150 760 l 1
+ -150 800 l 1xb4
+EndSplineSet
+Validated: 1
+Substitution2: "TH Vowel to Left" uni0E47.left
+EndChar

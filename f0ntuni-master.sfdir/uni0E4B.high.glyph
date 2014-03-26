@@ -1,0 +1,29 @@
+StartChar: uni0E4B.high
+Encoding: 235 3659 59
+Width: 0
+VWidth: 0
+Flags: W
+HStem: 960 60<-240 -180 -100 -40>
+VStem: -180 80<900 960 1020 1080>
+LayerCount: 2
+Fore
+SplineSet
+-180 1080 m 5
+ -100 1080 l 5
+ -100 1020 l 5
+ -40 1020 l 5
+ -40 960 l 5
+ -100 960 l 5
+ -100 900 l 5
+ -180 900 l 5
+ -180 960 l 5
+ -240 960 l 5
+ -240 1020 l 5
+ -180 1020 l 5
+ -180 1080 l 5
+EndSplineSet
+Validated: 1
+Substitution2: "TH Tone High to High-Left" uni0E4B.high.left
+Substitution2: "TH Tone High to Low" uni0E4B.low
+Substitution2: "TH Tone High to Low-Left" uni0E4B.low.left
+EndChar

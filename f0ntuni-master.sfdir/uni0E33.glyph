@@ -1,0 +1,14 @@
+StartChar: uni0E33
+Encoding: 211 3635 18
+Width: 520
+VWidth: 0
+Flags: W
+HStem: 0 21<330 430> 400 200<40 140> 510 90<140 330> 690 50<-170 -120> 790 50<-170 -120>
+VStem: -230 60<740 790> -120 60<740 790> 40 100<400 510> 330 100<0 510>
+LayerCount: 2
+Fore
+Refer: 53 3634 N 1 0 0 1 0 0 2
+Refer: 52 3661 N 1 0 0 1 0 0 2
+Validated: 1
+Substitution2: "TH Sara Am Alter" uni0E33.alt
+EndChar
