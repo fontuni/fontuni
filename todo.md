@@ -1,2 +1,3 @@
 ### todo
-- Check best available PUA range for Thai alternative glyphs
+- Thai test text : พี่ป๋ำฎูนู๋เป่าฝุ่นหญู่ก้นปี่
+- Pali test text : วิสุํ อญฺญํ ฐิโย ฐาตีํ กิํเสยฺยุํ ปุํปิํ
