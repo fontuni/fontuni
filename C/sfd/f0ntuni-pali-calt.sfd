@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: f0ntuni-thai-calt
-FullName: F0ntUni Thai CALT
-FamilyName: F0ntUni Thai CALT
+FontName: f0ntuni-pali-calt
+FullName: F0ntUni Pali CALT
+FamilyName: F0ntUni Pali CALT
 Weight: Regular
 Copyright: (c) 2014, Sungsit Sawaiwan.\n\nCreated by Sungsit Sawaiwan with the help from F0nt.com community.\n\nThis work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 Version: 0.1-alpha1
@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394964730
-ModificationTime: 1396094809
+ModificationTime: 1396122878
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -38,17 +38,15 @@ HheadAOffset: 0
 HheadDescent: -390
 HheadDOffset: 0
 OS2Vendor: 'BUni'
-Lookup: 6 0 0 "'calt' TH Descless"  {"'calt' TH Descless"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
-Lookup: 1 0 0 "TH Descless"  {"TH Descless" ("descless" ) } []
-Lookup: 6 0 0 "'calt' TH Vow Lower"  {"'calt' TH Vow Lower"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' TH Vow Lower"  {"'calt' TH Vow Lower"  } ['calt' ('DFLT' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "TH Vow Lower"  {"TH Vow Lower" ("low" ) } []
-Lookup: 6 0 0 "'calt' TH Asc Consonant"  {"'calt' TH Asc Consonant"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' TH Asc Consonant"  {"'calt' TH Asc Consonant"  } ['calt' ('DFLT' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "TH Vowel to Left"  {"TH Vowel to Left" ("left" ) } []
 Lookup: 1 0 0 "TH Tone High to Low-Left"  {"TH Tone High to Low-Left" ("low.left" ) } []
 Lookup: 1 0 0 "TH Tone High to High-Left"  {"TH Tone High to High-Left"  } []
 Lookup: 1 0 0 "TH Sara Am Alter"  {"TH Sara Am Alter"  } []
 Lookup: 1 0 0 "TH Nikhahit High-Left"  {"TH Nikhahit High-Left" ("high.left" ) } []
-Lookup: 6 0 0 "'calt' TH Base Consonant"  {"'calt' TH Base Consonant"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' TH Base Consonant"  {"'calt' TH Base Consonant"  } ['calt' ('DFLT' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "TH Tone High to Low"  {"TH Tone High to Low" ("low" ) } []
 Lookup: 1 0 0 "TH Tone Low to High"  {"TH Tone Low to High"  } []
 Lookup: 1 0 0 "TH Nikhahit High"  {"TH Nikhahit High" ("high" ) } []
@@ -63,76 +61,76 @@ ChainSub2: coverage "'calt' TH Vow Lower"  0 0 0 1
 EndFPST
 ChainSub2: class "'calt' TH Asc Consonant"  7 7 7 10
   Class: 23 uni0E1B uni0E1D uni0E1F
-  Class: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
-  Class: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
   Class: 23 uni0E38 uni0E39 uni0E3A
+  Class: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   Class: 7 uni0E33
+  Class: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
   Class: 7 uni0E4D
   BClass: 23 uni0E1B uni0E1D uni0E1F
-  BClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
-  BClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
   BClass: 23 uni0E38 uni0E39 uni0E3A
+  BClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   BClass: 7 uni0E33
+  BClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
   BClass: 7 uni0E4D
   FClass: 23 uni0E1B uni0E1D uni0E1F
-  FClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
-  FClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
   FClass: 23 uni0E38 uni0E39 uni0E3A
+  FClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   FClass: 7 uni0E33
+  FClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
   FClass: 7 uni0E4D
  3 0 0
-  ClsList: 1 2 5
+  ClsList: 1 3 4
   BClsList:
   FClsList:
  2
   SeqLookup: 1 "TH Tone High to High-Left" 
   SeqLookup: 2 "TH Sara Am Alter" 
  3 0 0
-  ClsList: 1 4 2
+  ClsList: 1 2 3
   BClsList:
   FClsList:
  1
   SeqLookup: 2 "TH Tone High to Low-Left" 
  3 0 0
-  ClsList: 1 4 6
+  ClsList: 1 2 6
   BClsList:
   FClsList:
  1
   SeqLookup: 2 "TH Vowel to Left" 
  2 0 0
-  ClsList: 1 5
+  ClsList: 1 4
   BClsList:
   FClsList:
  1
   SeqLookup: 1 "TH Sara Am Alter" 
  2 0 0
-  ClsList: 1 2
+  ClsList: 1 3
   BClsList:
   FClsList:
  1
   SeqLookup: 1 "TH Tone High to Low-Left" 
  3 0 0
-  ClsList: 1 3 2
+  ClsList: 1 5 3
   BClsList:
   FClsList:
  2
   SeqLookup: 1 "TH Vowel to Left" 
   SeqLookup: 2 "TH Tone High to High-Left" 
  3 0 0
-  ClsList: 1 3 6
+  ClsList: 1 5 6
   BClsList:
   FClsList:
  2
   SeqLookup: 1 "TH Vowel to Left" 
   SeqLookup: 2 "TH Nikhahit High-Left" 
  2 0 0
-  ClsList: 1 3
+  ClsList: 1 5
   BClsList:
   FClsList:
  1
   SeqLookup: 1 "TH Vowel to Left" 
  3 0 0
-  ClsList: 1 6 2
+  ClsList: 1 6 3
   BClsList:
   FClsList:
  2
@@ -144,73 +142,56 @@ ChainSub2: class "'calt' TH Asc Consonant"  7 7 7 10
   FClsList:
  1
   SeqLookup: 1 "TH Vowel to Left" 
-  ClassNames: "All_Others"  "asc"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
-  BClassNames: "All_Others"  "asc"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
-  FClassNames: "All_Others"  "asc"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
+  ClassNames: "All_Others"  "asc"  "vowbelow"  "tone"  "amvow"  "vowabove"  "nikhahit"  
+  BClassNames: "All_Others"  "asc"  "vowbelow"  "tone"  "amvow"  "vowabove"  "nikhahit"  
+  FClassNames: "All_Others"  "asc"  "vowbelow"  "tone"  "amvow"  "vowabove"  "nikhahit"  
 EndFPST
 ChainSub2: class "'calt' TH Base Consonant"  7 7 7 4
-  Class: 361 uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E0D uni0E0E uni0E0F uni0E10 uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E uni0E0D.descless uni0E10.descless
-  Class: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
-  Class: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
+  Class: 327 uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E0D uni0E0E uni0E0F uni0E10 uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E
   Class: 23 uni0E38 uni0E39 uni0E3A
+  Class: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   Class: 7 uni0E33
   Class: 7 uni0E4D
-  BClass: 361 uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E0D uni0E0E uni0E0F uni0E10 uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E uni0E0D.descless uni0E10.descless
-  BClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
-  BClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
+  Class: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
+  BClass: 327 uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E0D uni0E0E uni0E0F uni0E10 uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E
   BClass: 23 uni0E38 uni0E39 uni0E3A
+  BClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   BClass: 7 uni0E33
   BClass: 7 uni0E4D
-  FClass: 361 uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E0D uni0E0E uni0E0F uni0E10 uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E uni0E0D.descless uni0E10.descless
-  FClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
-  FClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
+  BClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
+  FClass: 327 uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E0D uni0E0E uni0E0F uni0E10 uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E
   FClass: 23 uni0E38 uni0E39 uni0E3A
+  FClass: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   FClass: 7 uni0E33
   FClass: 7 uni0E4D
+  FClass: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
  3 0 0
-  ClsList: 1 2 5
+  ClsList: 1 3 4
   BClsList:
   FClsList:
  1
   SeqLookup: 1 "TH Tone Low to High" 
  3 0 0
-  ClsList: 1 4 2
+  ClsList: 1 2 3
   BClsList:
   FClsList:
  1
   SeqLookup: 2 "TH Tone High to Low" 
  2 0 0
-  ClsList: 1 2
+  ClsList: 1 3
   BClsList:
   FClsList:
  1
   SeqLookup: 1 "TH Tone High to Low" 
  3 0 0
-  ClsList: 1 3 6
+  ClsList: 1 6 5
   BClsList:
   FClsList:
  1
   SeqLookup: 2 "TH Nikhahit High" 
-  ClassNames: "All_Others"  "con"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
-  BClassNames: "All_Others"  "con"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
-  FClassNames: "All_Others"  "con"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
-EndFPST
-ChainSub2: class "'calt' TH Descless"  3 3 3 1
-  Class: 15 uni0E0D uni0E10
-  Class: 23 uni0E38 uni0E39 uni0E3A
-  BClass: 15 uni0E0D uni0E10
-  BClass: 23 uni0E38 uni0E39 uni0E3A
-  FClass: 15 uni0E0D uni0E10
-  FClass: 23 uni0E38 uni0E39 uni0E3A
- 1 0 1
-  ClsList: 1
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "TH Descless" 
-  ClassNames: "All_Others"  "Desc"  "Below"  
-  BClassNames: "All_Others"  "Desc"  "Below"  
-  FClassNames: "All_Others"  "Desc"  "Below"  
+  ClassNames: "All_Others"  "con"  "vowbelow"  "tone"  "amvow"  "nikhahit"  "vowabove"  
+  BClassNames: "All_Others"  "con"  "vowbelow"  "tone"  "amvow"  "nikhahit"  "vowabove"  
+  FClassNames: "All_Others"  "con"  "vowbelow"  "tone"  "amvow"  "nikhahit"  "vowabove"  
 EndFPST
 LangName: 1054 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "+Dh4ONQ5IDhsOSw4zDg4OOQ4ZDjkOSw5ADhsOSA4yDh0OOA5IDhkOKw4NDjkOSA4BDkkOGQ4bDjUOSAAA" 
 LangName: 1033 "" "" "400" "" "" "" "" "" "BoonUni" "Sungsit Sawaiwan" "F0ntUni : Unicode font template." "http://boonuni.org" "http://sungsit.com" "CC BY 4.0" "http://creativecommons.org/licenses/by/4.0/" 
@@ -224,7 +205,7 @@ WinInfo: 144 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 284 119
+BeginChars: 284 117
 
 StartChar: uni0E2D
 Encoding: 205 3629 0
@@ -975,22 +956,30 @@ Encoding: 173 3597 24
 Width: 1040
 VWidth: 0
 Flags: W
-HStem: -180 120<560 650> -180 70<650 920> 0 80<195 275 590 845> 520 80<50 100 195 495>
-VStem: 100 95<80 520> 495 95<80 520> 560 90<-110 -60> 845 95<80 600>
+HStem: 0 80<195 275 590 845> 520 80<50 100 195 495>
+VStem: 100 95<80 520> 495 95<80 520> 845 95<80 600>
 LayerCount: 2
 Fore
 SplineSet
-560 -60 m 5xbb
- 650 -60 l 5xbb
- 650 -110 l 5
- 920 -110 l 1
- 920 -180 l 1x7b
- 560 -180 l 5
- 560 -60 l 5xbb
+50 600 m 1
+ 590 600 l 1
+ 590 80 l 1
+ 845 80 l 1
+ 845 600 l 1
+ 940 600 l 1
+ 940 0 l 1
+ 495 0 l 1
+ 495 520 l 1
+ 195 520 l 1
+ 195 80 l 1
+ 275 80 l 1
+ 275 0 l 1
+ 100 0 l 1
+ 100 520 l 1
+ 50 520 l 1
+ 50 600 l 1
 EndSplineSet
-Refer: 72 60941 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "TH Descless" uni0E0D.descless
 Colour: ff00
 EndChar
 
@@ -1550,28 +1539,30 @@ Encoding: 176 3600 42
 Width: 640
 VWidth: 0
 Flags: W
-HStem: -240 120<120 200> 0 80<360 435> 160 80<120 190> 320 80<170 435> 520 80<170 560>
-VStem: 80 90<400 520> 120 80<-170 -120> 435 95<80 320> 450 80<-170 -60>
+HStem: 0 80<360 435> 160 80<120 190> 320 80<170 435> 520 80<170 560>
+VStem: 80 90<400 520> 435 95<80 320>
 LayerCount: 2
 Fore
 SplineSet
-530 -60 m 1xfa80
- 530 -240 l 1
- 440 -240 l 9
- 320 -170 l 25
- 210 -240 l 25
- 120 -240 l 25
- 120 -120 l 25
- 200 -120 l 25
- 200 -170 l 25
- 320 -90 l 25
- 450 -170 l 17
- 450 -60 l 1
- 530 -60 l 1xfa80
+80 600 m 1
+ 560 600 l 1
+ 560 520 l 1
+ 170 520 l 1
+ 170 400 l 1
+ 530 400 l 1
+ 530 0 l 1
+ 310 0 l 1
+ 190 160 l 1
+ 120 160 l 1
+ 120 240 l 1
+ 240 240 l 1
+ 360 80 l 1
+ 435 80 l 1
+ 435 320 l 1
+ 80 320 l 1
+ 80 600 l 1
 EndSplineSet
-Refer: 73 60944 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "TH Descless" uni0E10.descless
 Colour: ff00
 EndChar
 
@@ -2360,72 +2351,8 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: uni0E0D.descless
-Encoding: 256 60941 72
-Width: 1040
-VWidth: -360
-Flags: W
-HStem: 0 80<195 275 590 845> 520 80<50 100 195 495>
-VStem: 100 95<80 520> 495 95<80 520> 845 95<80 600>
-LayerCount: 2
-Fore
-SplineSet
-50 600 m 1
- 590 600 l 1
- 590 80 l 1
- 845 80 l 1
- 845 600 l 1
- 940 600 l 1
- 940 0 l 1
- 495 0 l 1
- 495 520 l 1
- 195 520 l 1
- 195 80 l 1
- 275 80 l 1
- 275 0 l 1
- 100 0 l 1
- 100 520 l 1
- 50 520 l 1
- 50 600 l 1
-EndSplineSet
-Validated: 1
-Colour: ff00
-EndChar
-
-StartChar: uni0E10.descless
-Encoding: 257 60944 73
-Width: 640
-VWidth: 0
-Flags: W
-HStem: 0 80<360 435> 160 80<120 190> 320 80<170 435> 520 80<170 560>
-VStem: 80 90<400 520> 435 95<80 320>
-LayerCount: 2
-Fore
-SplineSet
-80 600 m 1
- 560 600 l 1
- 560 520 l 1
- 170 520 l 1
- 170 400 l 1
- 530 400 l 1
- 530 0 l 1
- 310 0 l 1
- 190 160 l 1
- 120 160 l 1
- 120 240 l 1
- 240 240 l 1
- 360 80 l 1
- 435 80 l 1
- 435 320 l 1
- 80 320 l 1
- 80 600 l 1
-EndSplineSet
-Validated: 1
-Colour: ff00
-EndChar
-
 StartChar: uni0E48.low
-Encoding: 258 -1 74
+Encoding: 256 -1 72
 Width: 0
 VWidth: 0
 Flags: W
@@ -2446,7 +2373,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E49.low
-Encoding: 259 -1 75
+Encoding: 257 -1 73
 Width: 0
 VWidth: 0
 Flags: W
@@ -2473,7 +2400,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4A.low
-Encoding: 260 -1 76
+Encoding: 258 -1 74
 Width: 0
 VWidth: 0
 Flags: W
@@ -2506,7 +2433,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4B.low
-Encoding: 261 -1 77
+Encoding: 259 -1 75
 Width: 0
 VWidth: 0
 Flags: W
@@ -2535,7 +2462,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4C.low
-Encoding: 262 -1 78
+Encoding: 260 -1 76
 Width: 0
 VWidth: 0
 Flags: W
@@ -2558,7 +2485,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E3F
-Encoding: 223 3647 79
+Encoding: 223 3647 77
 Width: 670
 VWidth: 0
 Flags: W
@@ -2601,7 +2528,7 @@ Colour: ff0000
 EndChar
 
 StartChar: uni0E48.low.left
-Encoding: 263 -1 80
+Encoding: 261 -1 78
 Width: 0
 VWidth: 0
 Flags: W
@@ -2609,13 +2536,13 @@ HStem: 720 180<-430 -350>
 VStem: -430 80<720 900>
 LayerCount: 2
 Fore
-Refer: 74 -1 N 1 0 0 1 -240 0 2
+Refer: 72 -1 N 1 0 0 1 -240 0 2
 Validated: 1
 Colour: ff00
 EndChar
 
 StartChar: uni0E49.low.left
-Encoding: 264 -1 81
+Encoding: 262 -1 79
 Width: 0
 VWidth: 0
 Flags: W
@@ -2623,13 +2550,13 @@ HStem: 720 70<-570 -490 -410 -270> 840 60<-530 -490>
 VStem: -530 120<840 900> -490 80<790 840>
 LayerCount: 2
 Fore
-Refer: 75 -1 N 1 0 0 1 -240 0 2
+Refer: 73 -1 N 1 0 0 1 -240 0 2
 Validated: 1
 Colour: ff00
 EndChar
 
 StartChar: uni0E4A.low.left
-Encoding: 265 -1 82
+Encoding: 263 -1 80
 Width: 0
 VWidth: 0
 Flags: W
@@ -2637,13 +2564,13 @@ HStem: 720 50<-380 -330> 720 150<-630 -570 -440 -380 -330 -270>
 VStem: -630 60<720 800> -440 60<770 800> -330 60<770 870>
 LayerCount: 2
 Fore
-Refer: 76 -1 N 1 0 0 1 -240 0 2
+Refer: 74 -1 N 1 0 0 1 -240 0 2
 Validated: 1
 Colour: ff00
 EndChar
 
 StartChar: uni0E4B.low.left
-Encoding: 266 -1 83
+Encoding: 264 -1 81
 Width: 0
 VWidth: 0
 Flags: W
@@ -2651,13 +2578,13 @@ HStem: 785 50<-490 -425 -355 -290>
 VStem: -425 70<720 785 835 900>
 LayerCount: 2
 Fore
-Refer: 77 -1 N 1 0 0 1 -240 0 2
+Refer: 75 -1 N 1 0 0 1 -240 0 2
 Validated: 1
 Colour: ff00
 EndChar
 
 StartChar: uni0E4C.low.left
-Encoding: 267 -1 84
+Encoding: 265 -1 82
 Width: 0
 VWidth: 0
 Flags: W
@@ -2665,13 +2592,13 @@ HStem: 720 120<-490 -400> 770 70<-400 -270>
 VStem: -490 90<720 770>
 LayerCount: 2
 Fore
-Refer: 78 -1 N 1 0 0 1 -240 0 2
+Refer: 76 -1 N 1 0 0 1 -240 0 2
 Validated: 1
 Colour: ff00
 EndChar
 
 StartChar: uni0E4E
-Encoding: 238 3662 85
+Encoding: 238 3662 83
 Width: 0
 VWidth: 0
 Flags: W
@@ -2697,7 +2624,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E48.high.left
-Encoding: 268 -1 86
+Encoding: 266 -1 84
 Width: 0
 VWidth: 0
 Flags: W
@@ -2711,7 +2638,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E49.high.left
-Encoding: 269 -1 87
+Encoding: 267 -1 85
 Width: 0
 VWidth: 0
 Flags: W
@@ -2725,7 +2652,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4A.high.left
-Encoding: 270 -1 88
+Encoding: 268 -1 86
 Width: 0
 VWidth: 0
 Flags: W
@@ -2739,7 +2666,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4B.high.left
-Encoding: 271 -1 89
+Encoding: 269 -1 87
 Width: 0
 VWidth: 0
 Flags: W
@@ -2753,7 +2680,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4C.high.left
-Encoding: 272 -1 90
+Encoding: 270 -1 88
 Width: 0
 VWidth: 0
 Flags: W
@@ -2767,7 +2694,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4F
-Encoding: 239 3663 91
+Encoding: 239 3663 89
 Width: 780
 VWidth: 0
 Flags: W
@@ -2802,7 +2729,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E50
-Encoding: 240 3664 92
+Encoding: 240 3664 90
 Width: 720
 VWidth: 0
 Flags: W
@@ -2827,7 +2754,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E51
-Encoding: 241 3665 93
+Encoding: 241 3665 91
 Width: 720
 VWidth: 0
 Flags: W
@@ -2857,7 +2784,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E52
-Encoding: 242 3666 94
+Encoding: 242 3666 92
 Width: 810
 VWidth: 0
 Flags: W
@@ -2891,7 +2818,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E53
-Encoding: 243 3667 95
+Encoding: 243 3667 93
 Width: 770
 VWidth: 0
 Flags: W
@@ -2921,7 +2848,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E54
-Encoding: 244 3668 96
+Encoding: 244 3668 94
 Width: 720
 VWidth: 0
 Flags: W
@@ -2953,7 +2880,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E55
-Encoding: 245 3669 97
+Encoding: 245 3669 95
 Width: 720
 VWidth: 0
 Flags: W
@@ -2994,7 +2921,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E56
-Encoding: 246 3670 98
+Encoding: 246 3670 96
 Width: 680
 VWidth: 0
 Flags: W
@@ -3022,7 +2949,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E57
-Encoding: 247 3671 99
+Encoding: 247 3671 97
 Width: 980
 VWidth: 0
 Flags: W
@@ -3056,7 +2983,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E58
-Encoding: 248 3672 100
+Encoding: 248 3672 98
 Width: 720
 VWidth: 0
 Flags: W
@@ -3090,7 +3017,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E59
-Encoding: 249 3673 101
+Encoding: 249 3673 99
 Width: 770
 VWidth: 0
 Flags: W
@@ -3122,7 +3049,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E5A
-Encoding: 250 3674 102
+Encoding: 250 3674 100
 Width: 770
 VWidth: 0
 Flags: W
@@ -3155,7 +3082,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E5B
-Encoding: 251 3675 103
+Encoding: 251 3675 101
 Width: 930
 VWidth: 0
 Flags: W
@@ -3189,7 +3116,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E31.left
-Encoding: 273 -1 104
+Encoding: 271 -1 102
 Width: 0
 VWidth: 0
 Flags: W
@@ -3203,7 +3130,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E34.left
-Encoding: 274 -1 105
+Encoding: 272 -1 103
 Width: 0
 VWidth: 0
 Flags: W
@@ -3217,7 +3144,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E35.left
-Encoding: 275 -1 106
+Encoding: 273 -1 104
 Width: 0
 VWidth: 0
 Flags: W
@@ -3231,7 +3158,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E36.left
-Encoding: 276 -1 107
+Encoding: 274 -1 105
 Width: 0
 VWidth: 0
 Flags: W
@@ -3245,7 +3172,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E37.left
-Encoding: 277 -1 108
+Encoding: 275 -1 106
 Width: 0
 VWidth: 0
 Flags: W
@@ -3259,7 +3186,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E47.left
-Encoding: 278 -1 109
+Encoding: 276 -1 107
 Width: 0
 VWidth: 0
 Flags: W
@@ -3273,7 +3200,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E4D.left
-Encoding: 279 -1 110
+Encoding: 277 -1 108
 Width: 0
 VWidth: 0
 Flags: W
@@ -3288,7 +3215,7 @@ Colour: ff00
 EndChar
 
 StartChar: space
-Encoding: 32 32 111
+Encoding: 32 32 109
 Width: 360
 VWidth: 0
 Flags: W
@@ -3296,7 +3223,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uni0E38.low
-Encoding: 280 -1 112
+Encoding: 278 -1 110
 Width: 0
 VWidth: -200
 Flags: W
@@ -3310,7 +3237,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E39.low
-Encoding: 281 -1 113
+Encoding: 279 -1 111
 Width: 0
 VWidth: 0
 Flags: W
@@ -3324,7 +3251,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni0E3A.low
-Encoding: 282 -1 114
+Encoding: 280 -1 112
 Width: 0
 VWidth: -150
 Flags: W
@@ -3338,7 +3265,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni00A0
-Encoding: 160 160 115
+Encoding: 160 160 113
 Width: 360
 VWidth: 0
 Flags: W
@@ -3346,7 +3273,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uni0E33.alt
-Encoding: 283 60979 116
+Encoding: 281 60979 114
 Width: 540
 VWidth: 0
 Flags: W
@@ -3354,14 +3281,14 @@ HStem: 0 21<345 440> 520 80<145 345> 710 45<-380 -300> 825 45<-380 -300>
 VStem: -430 50<755 825> -300 50<755 825> 50 95<400 520> 345 95<0 520>
 LayerCount: 2
 Fore
-Refer: 110 -1 N 1 0 0 1 0 0 2
+Refer: 108 -1 N 1 0 0 1 0 0 2
 Refer: 53 3634 N 1 0 0 1 0 0 2
 Validated: 1
 Colour: ff00
 EndChar
 
 StartChar: uni0E4D.high
-Encoding: 219 -1 117
+Encoding: 282 -1 115
 Width: 0
 VWidth: 0
 Flags: W
@@ -3374,7 +3301,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0E4D.high.left
-Encoding: 220 -1 118
+Encoding: 283 -1 116
 Width: 0
 VWidth: 0
 Flags: W

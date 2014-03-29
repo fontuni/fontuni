@@ -1,0 +1,97 @@
+$textSize: 24px;
+$lineHeight: $textSize * 1.5;
+
+@mixin font-face($fontFamily,$fontFile) {
+  family: $fontFamily;
+  src: local('☺'), url("$fontFile" );
+  weight: 400;
+}
+
+/* A class */
+@font-face {
+   @include font-face("F0ntUni Thai", "../A/f0ntuni-thai.otf");
+}
+.f0ntuni-thai {
+  font-family: "F0ntUni Thai";
+}
+
+/* B Class */
+@font-face {
+   @include font-face("F0ntUni TH-PI CALT", "../B/f0ntuni-th-pi-calt.otf");
+}
+.f0ntuni-th-pi-calt {
+  font-family: "F0ntUni TH-PI CALT"
+}
+
+@font-face {
+   @include font-face("F0ntUni TH-PI CCMP", "../B/f0ntuni-th-pi-ccmp.otf");
+}
+.f0ntuni-th-pi-ccmp {
+  font-family: "F0ntUni TH-PI CCMP"
+}
+
+/* C class */
+@font-face {
+   @include font-face("F0ntUni Thai CALT", "../C/f0ntuni-thai-calt.otf");
+}
+.f0ntuni-thai-calt {
+  font-family: "F0ntUni Thai CALT"
+}
+
+@font-face {
+   @include font-face("F0ntUni Thai CCMP", "../C/f0ntuni-thai-ccmp.otf");
+}
+.f0ntuni-thai-ccmp {
+  font-family: "F0ntUni Thai CCMP"
+}
+
+@font-face {
+  @include font-face("F0ntUni Pali CALT", "../C/f0ntuni-pali-calt.otf");
+}
+.f0ntuni-pali-calt {
+  font-family: "F0ntUni Pali CALT"
+}
+
+@font-face {
+  @include font-face("F0ntUni Pali CCMP", "../C/f0ntuni-pali-ccmp.otf");
+}
+.f0ntuni-pali-ccmp {
+  font-family: "F0ntUni Pali CCMP"
+}
+
+body {
+  font-size: $textSize;
+  line-height: $lineHeight;
+  font-family: sans-serif;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h1,h2,h3,h4,h5,h6,strong {
+  font-family: "F0ntUni Thai", sans-serif;
+  font-weight: 400;
+}
+
+.info {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.pi-salt {
+  -moz-font-feature-settings:"salt" 1; 
+  -moz-font-feature-settings:"salt=1"; 
+  -ms-font-feature-settings:"salt" 1; 
+  -o-font-feature-settings:"salt" 1; 
+  -webkit-font-feature-settings:"salt" 1; 
+  font-feature-settings:"salt" 1;
+}
+
+.pi-ss01 {
+  -moz-font-feature-settings:"ss01" 1; 
+  -moz-font-feature-settings:"ss01=1"; 
+  -ms-font-feature-settings:"ss01" 1; 
+  -o-font-feature-settings:"ss01" 1; 
+  -webkit-font-feature-settings:"ss01" 1; 
+  font-feature-settings:"ss01" 1;
+}

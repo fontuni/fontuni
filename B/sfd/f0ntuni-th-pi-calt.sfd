@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: f0ntuni-th-pi-ccmp
-FullName: F0ntUni TH-PI CCMP
-FamilyName: F0ntUni TH-PI CCMP
+FontName: f0ntuni-th-pi-calt
+FullName: F0ntUni TH-PI CALT
+FamilyName: F0ntUni TH-PI CALT
 Weight: Regular
 Copyright: (c) 2014, Sungsit Sawaiwan.\n\nCreated by Sungsit Sawaiwan with the help from F0nt.com community.\n\nThis work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 Version: 0.1-alpha1
@@ -18,7 +18,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1394964730
-ModificationTime: 1396094169
+ModificationTime: 1396122644
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -38,33 +38,33 @@ HheadAOffset: 0
 HheadDescent: -390
 HheadDOffset: 0
 OS2Vendor: 'BUni'
-Lookup: 1 0 0 "'locl' Localiized Thai to Pali"  {"'locl' Localiized Thai to Pali" ("descless" ) } ['locl' ('thai' <'PAL ' 'SAN ' > ) ]
+Lookup: 1 0 0 "'locl' Localized Thai to Pali"  {"'locl' Localized Thai to Pali" ("descless" ) } ['locl' ('thai' <'PAL ' 'SAN ' > ) ]
 Lookup: 1 0 0 "'salt' Thai-Pali Stylistic Alt"  {"'salt' Thai-Pali Stylistic Alt" ("descless" ) } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Thai-Pali Style Set"  {"'ss01' Thai-Pali Style Set" ("descless" ) } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' TH Descless"  {"'ccmp' TH Descless"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' TH Descless"  {"'calt' TH Descless"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "TH Descless"  {"TH Descless" ("descless" ) } []
-Lookup: 6 0 0 "'ccmp' TH Vow Lower"  {"'ccmp' TH Vow Lower"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' TH Vow Lower"  {"'calt' TH Vow Lower"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "TH Vow Lower"  {"TH Vow Lower" ("low" ) } []
-Lookup: 6 0 0 "'ccmp' TH Asc Consonant"  {"'ccmp' TH Asc Consonant"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' TH Asc Consonant"  {"'calt' TH Asc Consonant"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "TH Vowel to Left"  {"TH Vowel to Left" ("left" ) } []
 Lookup: 1 0 0 "TH Tone High to Low-Left"  {"TH Tone High to Low-Left" ("low.left" ) } []
 Lookup: 1 0 0 "TH Tone High to High-Left"  {"TH Tone High to High-Left"  } []
 Lookup: 1 0 0 "TH Sara Am Alter"  {"TH Sara Am Alter"  } []
 Lookup: 1 0 0 "TH Nikhahit High-Left"  {"TH Nikhahit High-Left" ("high.left" ) } []
-Lookup: 6 0 0 "'ccmp' TH Base Consonant"  {"'ccmp' TH Base Consonant"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' TH Base Consonant"  {"'calt' TH Base Consonant"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "TH Tone High to Low"  {"TH Tone High to Low" ("low" ) } []
 Lookup: 1 0 0 "TH Tone Low to High"  {"TH Tone Low to High"  } []
 Lookup: 1 0 0 "TH Nikhahit High"  {"TH Nikhahit High" ("high" ) } []
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'ccmp' TH Vow Lower"  0 0 0 1
+ChainSub2: coverage "'calt' TH Vow Lower"  0 0 0 1
  1 1 0
   Coverage: 23 uni0E38 uni0E39 uni0E3A
   BCoverage: 15 uni0E0E uni0E0F
  1
   SeqLookup: 0 "TH Vow Lower" 
 EndFPST
-ChainSub2: class "'ccmp' TH Asc Consonant"  7 7 7 10
+ChainSub2: class "'calt' TH Asc Consonant"  7 7 7 10
   Class: 23 uni0E1B uni0E1D uni0E1F
   Class: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   Class: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
@@ -151,7 +151,7 @@ ChainSub2: class "'ccmp' TH Asc Consonant"  7 7 7 10
   BClassNames: "All_Others"  "asc"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
   FClassNames: "All_Others"  "asc"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
 EndFPST
-ChainSub2: class "'ccmp' TH Base Consonant"  7 7 7 4
+ChainSub2: class "'calt' TH Base Consonant"  7 7 7 4
   Class: 361 uni0E01 uni0E02 uni0E03 uni0E04 uni0E05 uni0E06 uni0E07 uni0E08 uni0E09 uni0E0A uni0E0B uni0E0C uni0E0D uni0E0E uni0E0F uni0E10 uni0E11 uni0E12 uni0E13 uni0E14 uni0E15 uni0E16 uni0E17 uni0E18 uni0E19 uni0E1A uni0E1C uni0E1E uni0E20 uni0E21 uni0E22 uni0E23 uni0E25 uni0E27 uni0E28 uni0E29 uni0E2A uni0E2B uni0E2C uni0E2D uni0E2E uni0E0D.descless uni0E10.descless
   Class: 64 uni0E48.high uni0E49.high uni0E4A.high uni0E4B.high uni0E4C.high
   Class: 47 uni0E31 uni0E34 uni0E35 uni0E36 uni0E37 uni0E47
@@ -198,7 +198,7 @@ ChainSub2: class "'ccmp' TH Base Consonant"  7 7 7 4
   BClassNames: "All_Others"  "con"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
   FClassNames: "All_Others"  "con"  "tone"  "vowabove"  "vowbelow"  "amvow"  "nikhahit"  
 EndFPST
-ChainSub2: class "'ccmp' TH Descless"  3 3 3 1
+ChainSub2: class "'calt' TH Descless"  3 3 3 1
   Class: 15 uni0E0D uni0E10
   Class: 23 uni0E38 uni0E39 uni0E3A
   BClass: 15 uni0E0D uni0E10
@@ -996,7 +996,7 @@ Refer: 72 60941 N 1 0 0 1 0 0 2
 Validated: 1
 Substitution2: "'ss01' Thai-Pali Style Set" uni0E0D.descless
 Substitution2: "'salt' Thai-Pali Stylistic Alt" uni0E0D.descless
-Substitution2: "'locl' Localiized Thai to Pali" uni0E0D.descless
+Substitution2: "'locl' Localized Thai to Pali" uni0E0D.descless
 Substitution2: "TH Descless" uni0E0D.descless
 Colour: ff00
 EndChar
@@ -1580,7 +1580,7 @@ Refer: 73 60944 N 1 0 0 1 0 0 2
 Validated: 1
 Substitution2: "'ss01' Thai-Pali Style Set" uni0E10.descless
 Substitution2: "'salt' Thai-Pali Stylistic Alt" uni0E10.descless
-Substitution2: "'locl' Localiized Thai to Pali" uni0E10.descless
+Substitution2: "'locl' Localized Thai to Pali" uni0E10.descless
 Substitution2: "TH Descless" uni0E10.descless
 Colour: ff00
 EndChar

@@ -21,3 +21,7 @@ Thumbs.db
 
 # Ignore SVG
 *.svg
+
+# node, cache
+node_modules
+.sass-cache

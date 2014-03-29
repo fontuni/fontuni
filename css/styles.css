@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* A class */
+@font-face {
+  family: "F0ntUni Thai";
+  src: local("☺"), url("$fontFile");
+  weight: 400; }
+.f0ntuni-thai {
+  font-family: "F0ntUni Thai"; }
+
+/* B Class */
+@font-face {
+  family: "F0ntUni TH-PI CALT";
+  src: local("☺"), url("$fontFile");
+  weight: 400; }
+.f0ntuni-th-pi-calt {
+  font-family: "F0ntUni TH-PI CALT"; }
+
+@font-face {
+  family: "F0ntUni TH-PI CCMP";
+  src: local("☺"), url("$fontFile");
+  weight: 400; }
+.f0ntuni-th-pi-ccmp {
+  font-family: "F0ntUni TH-PI CCMP"; }
+
+/* C class */
+@font-face {
+  family: "F0ntUni Thai CALT";
+  src: local("☺"), url("$fontFile");
+  weight: 400; }
+.f0ntuni-thai-calt {
+  font-family: "F0ntUni Thai CALT"; }
+
+@font-face {
+  family: "F0ntUni Thai CCMP";
+  src: local("☺"), url("$fontFile");
+  weight: 400; }
+.f0ntuni-thai-ccmp {
+  font-family: "F0ntUni Thai CCMP"; }
+
+@font-face {
+  family: "F0ntUni Pali CALT";
+  src: local("☺"), url("$fontFile");
+  weight: 400; }
+.f0ntuni-pali-calt {
+  font-family: "F0ntUni Pali CALT"; }
+
+@font-face {
+  family: "F0ntUni Pali CCMP";
+  src: local("☺"), url("$fontFile");
+  weight: 400; }
+.f0ntuni-pali-ccmp {
+  font-family: "F0ntUni Pali CCMP"; }
+
+body {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: sans-serif;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 800px; }
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: "F0ntUni Thai", sans-serif;
+  font-weight: 400; }
+
+.info {
+  font-size: 16px;
+  line-height: 1.5em; }
+
+.pi-salt {
+  -moz-font-feature-settings: "salt" 1;
+  -moz-font-feature-settings: "salt=1";
+  -ms-font-feature-settings: "salt" 1;
+  -o-font-feature-settings: "salt" 1;
+  -webkit-font-feature-settings: "salt" 1;
+  font-feature-settings: "salt" 1; }
+
+.pi-ss01 {
+  -moz-font-feature-settings: "ss01" 1;
+  -moz-font-feature-settings: "ss01=1";
+  -ms-font-feature-settings: "ss01" 1;
+  -o-font-feature-settings: "ss01" 1;
+  -webkit-font-feature-settings: "ss01" 1;
+  font-feature-settings: "ss01" 1; }
