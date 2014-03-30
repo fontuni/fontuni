@@ -2,9 +2,9 @@ $textSize: 24px;
 $lineHeight: $textSize * 1.5;
 
 @mixin font-face($fontFamily,$fontFile) {
-  family: $fontFamily;
-  src: local('☺'), url("$fontFile" );
-  weight: 400;
+  src: local('☺'), url($fontFile);
+  font-family: $fontFamily;
+  font-weight: 400;
 }
 
 /* A class */
