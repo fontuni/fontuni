@@ -1,66 +1,35 @@
-@charset "UTF-8";
 /* A class */
 @font-face {
-  src: local("☺"), url("../A/f0ntuni-thai.otf");
-  font-family: "F0ntUni Thai";
+  src: url("../A/f0ntuni-a.otf");
+  font-family: "F0ntUni A";
   font-weight: 400; }
-.f0ntuni-thai {
-  font-family: "F0ntUni Thai"; }
+.f0ntuni-a {
+  font-family: "F0ntUni A"; }
 
 /* B Class */
 @font-face {
-  src: local("☺"), url("../B/f0ntuni-th-pi-calt.otf");
-  font-family: "F0ntUni TH-PI CALT";
+  src: url("../B/f0ntuni-b.otf");
+  font-family: "F0ntUni B";
   font-weight: 400; }
-.f0ntuni-th-pi-calt {
-  font-family: "F0ntUni TH-PI CALT"; }
+.f0ntuni-b1 {
+  font-family: "F0ntUni B"; }
 
 @font-face {
-  src: local("☺"), url("../B/f0ntuni-th-pi-ccmp.otf");
-  font-family: "F0ntUni TH-PI CCMP";
+  src: url("../B/f0ntuni-b-pali.otf");
+  font-family: "F0ntUni B Pali";
   font-weight: 400; }
-.f0ntuni-th-pi-ccmp {
-  font-family: "F0ntUni TH-PI CCMP"; }
-
-/* C class */
-@font-face {
-  src: local("☺"), url("../C/f0ntuni-thai-calt.otf");
-  font-family: "F0ntUni Thai CALT";
-  font-weight: 400; }
-.f0ntuni-thai-calt {
-  font-family: "F0ntUni Thai CALT"; }
-
-@font-face {
-  src: local("☺"), url("../C/f0ntuni-thai-ccmp.otf");
-  font-family: "F0ntUni Thai CCMP";
-  font-weight: 400; }
-.f0ntuni-thai-ccmp {
-  font-family: "F0ntUni Thai CCMP"; }
-
-@font-face {
-  src: local("☺"), url("../C/f0ntuni-pali-calt.otf");
-  font-family: "F0ntUni Pali CALT";
-  font-weight: 400; }
-.f0ntuni-pali-calt {
-  font-family: "F0ntUni Pali CALT"; }
-
-@font-face {
-  src: local("☺"), url("../C/f0ntuni-pali-ccmp.otf");
-  font-family: "F0ntUni Pali CCMP";
-  font-weight: 400; }
-.f0ntuni-pali-ccmp {
-  font-family: "F0ntUni Pali CCMP"; }
+.f0ntuni-b2 {
+  font-family: "F0ntUni B Pali"; }
 
 body {
   font-size: 24px;
-  line-height: 36px;
-  font-family: sans-serif;
+  line-height: 1.5em;
+  font-family: "F0ntUni A", sans-serif;
   padding: 0 20px;
   margin: 0 auto;
   max-width: 800px; }
 
 h1, h2, h3, h4, h5, h6, strong {
-  font-family: "F0ntUni Thai", sans-serif;
   font-weight: 400; }
 
 .info {
