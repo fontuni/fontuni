@@ -18,14 +18,14 @@ $textSize: 24px;
 @font-face {
    @include font-face("F0ntUni B", "../B/f0ntuni-b.otf");
 }
-.f0ntuni-b1 {
+.f0ntuni-b {
   font-family: "F0ntUni B"
 }
 
 @font-face {
    @include font-face("F0ntUni B Pali", "../B/f0ntuni-b-pali.otf");
 }
-.f0ntuni-b2 {
+.f0ntuni-b-pali {
   font-family: "F0ntUni B Pali"
 }
 

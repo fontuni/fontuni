@@ -11,14 +11,14 @@
   src: url("../B/f0ntuni-b.otf");
   font-family: "F0ntUni B";
   font-weight: 400; }
-.f0ntuni-b1 {
+.f0ntuni-b {
   font-family: "F0ntUni B"; }
 
 @font-face {
   src: url("../B/f0ntuni-b-pali.otf");
   font-family: "F0ntUni B Pali";
   font-weight: 400; }
-.f0ntuni-b2 {
+.f0ntuni-b-pali {
   font-family: "F0ntUni B Pali"; }
 
 body {
