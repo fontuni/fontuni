@@ -17,8 +17,8 @@ FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1394964730
-ModificationTime: 1396444952
+CreationTime: 1396459553
+ModificationTime: 1396857008
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -41,9 +41,9 @@ OS2Vendor: 'BUni'
 Lookup: 1 0 0 "'locl' Localized Thai-Sanskrit"  {"'locl' Localized Thai-Sanskrit" ("descless" ) } ['locl' ('thai' <'PAL ' 'SAN ' > ) ]
 Lookup: 1 0 0 "'salt' Thai-Sanskrit Stylistic Alt"  {"'salt' Thai-Sanskrit Stylistic Alt" ("descless" ) } ['salt' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Thai-Sanskrit Style Set"  {"'ss01' Thai-Sanskrit Style Set" ("descless" ) } ['ss01' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
-Lookup: 2 0 0 "'ccmp' TH Sara Am Decomposition"  {"'ccmp' TH Sara Am Decomposition"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' TH Descless"  {"'calt' TH Descless"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' TH Descless Sub"  {"'ccmp' TH Descless Sub"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "TH Descless"  {"TH Descless" ("descless" ) } []
+Lookup: 2 0 0 "'ccmp' TH Sara Am Decomposition"  {"'ccmp' TH Sara Am Decomposition"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Tone-Nikhahit Composition"  {"'ccmp' Tone-Nikhahit Composition"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' TH Vowel Below"  {"'mark' TH Vowel Below"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' TH Asc Consonant"  {"'mark' TH Asc Consonant"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
@@ -52,22 +52,12 @@ Lookup: 262 0 0 "'mkmk' TH Vowel +- Tone"  {"'mkmk' TH Vowel +- Tone"  } ['mkmk'
 Lookup: 262 0 0 "'mkmk' TH Vowel +- Nikhahit"  {"'mkmk' TH Vowel +- Nikhahit"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "'calt' TH Descless"  3 3 3 1
-  Class: 15 uni0E0D uni0E10
-  Class: 23 uni0E38 uni0E39 uni0E3A
-  BClass: 15 uni0E0D uni0E10
-  BClass: 23 uni0E38 uni0E39 uni0E3A
-  FClass: 15 uni0E0D uni0E10
-  FClass: 23 uni0E38 uni0E39 uni0E3A
+ChainSub2: coverage "'ccmp' TH Descless Sub"  0 0 0 1
  1 0 1
-  ClsList: 1
-  BClsList:
-  FClsList: 2
+  Coverage: 15 uni0E0D uni0E10
+  FCoverage: 23 uni0E38 uni0E39 uni0E3A
  1
   SeqLookup: 0 "TH Descless" 
-  ClassNames: "All_Others"  "Desc"  "Below"  
-  BClassNames: "All_Others"  "Desc"  "Below"  
-  FClassNames: "All_Others"  "Desc"  "Below"  
 EndFPST
 LangName: 1054 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "+Dh4ONQ5IDhsOSw4zDg4OOQ4ZDjkOSw4ZDkkOMw5ADhsOSA4yDh0OOA5IDhkOKw4NDjkOSA4BDkkOGQ4bDjUOSAAA +DhAOMg4VDjgOTQAA +Dg0OMg4VDjQOTQAA +DhsOOA5NDhsONA5N" 
 LangName: 1033 "" "" "400" "" "" "" "" "" "BoonUni" "Sungsit Sawaiwan" "F0ntUni : Unicode font template." "http://boonuni.org" "http://sungsit.com" "CC BY 4.0" "http://creativecommons.org/licenses/by/4.0/" 
@@ -79,7 +69,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 84 14 8
+WinInfo: 98 14 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -2652,7 +2642,7 @@ StartChar: uni0E47
 Encoding: 231 3655 65
 Width: 0
 VWidth: 0
-Flags: WO
+Flags: W
 HStem: 690 45<-287.483 -217.485> 780 20G<-363.061 -300> 830 35<-221.192 -167.274> 910 55<-423.263 -201.267>
 VStem: -510 66<768.831 890.835> -260 36<772.786 827.105> -180 70<985.625 1050> -164 34<774.141 826.796>
 AnchorPoint: "mark-th-asc-con" -120 690 mark 0
