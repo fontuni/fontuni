@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0E31" format="1">
+  <advance width="0"/>
+  <unicode hex="0E31"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="move" name="mkmk-th-vow-tone"/>
+    </contour>
+    <contour>
+      <point x="-20" y="690" type="move" name="_mark-th-asc-con"/>
+    </contour>
+    <contour>
+      <point x="-305" y="940" type="curve" smooth="yes"/>
+      <point x="-258" y="940"/>
+      <point x="-220" y="902"/>
+      <point x="-220" y="855" type="curve" smooth="yes"/>
+      <point x="-220" y="820"/>
+      <point x="-241" y="790"/>
+      <point x="-271" y="777" type="curve"/>
+      <point x="-253" y="769"/>
+      <point x="-241" y="765"/>
+      <point x="-215" y="765" type="curve" smooth="yes"/>
+      <point x="-128" y="765"/>
+      <point x="-75" y="839"/>
+      <point x="-75" y="920" type="curve"/>
+      <point x="10" y="920" type="line"/>
+      <point x="10" y="804"/>
+      <point x="-58" y="700"/>
+      <point x="-215" y="700" type="curve" smooth="yes"/>
+      <point x="-317" y="700"/>
+      <point x="-390" y="754"/>
+      <point x="-390" y="855" type="curve" smooth="yes"/>
+      <point x="-390" y="902"/>
+      <point x="-352" y="940"/>
+    </contour>
+    <contour>
+      <point x="-305" y="895" type="curve" smooth="yes"/>
+      <point x="-327" y="895"/>
+      <point x="-345" y="877"/>
+      <point x="-345" y="855" type="curve" smooth="yes"/>
+      <point x="-345" y="833"/>
+      <point x="-327" y="815"/>
+      <point x="-305" y="815" type="curve" smooth="yes"/>
+      <point x="-283" y="815"/>
+      <point x="-265" y="833"/>
+      <point x="-265" y="855" type="curve" smooth="yes"/>
+      <point x="-265" y="877"/>
+      <point x="-283" y="895"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>700</integer>
+	    <key>width</key>	    <integer>65</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>895</integer>
+	    <key>width</key>	    <integer>45</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>-390</integer>
+	    <key>width</key>
+	    <integer>45</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-265</integer>
+	    <key>width</key>
+	    <integer>45</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-75</integer>
+	    <key>width</key>
+	    <integer>85</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
