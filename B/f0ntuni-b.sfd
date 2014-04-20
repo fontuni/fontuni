@@ -4,7 +4,7 @@ FullName: F0ntUni B
 FamilyName: F0ntUni B
 Weight: Regular
 Copyright: (c) 2014, Sungsit Sawaiwan.\n\nCreated by Sungsit Sawaiwan with the help from F0nt.com community.\n\nThis work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
-Version: 0.1-beta2
+Version: 0.1.1
 ItalicAngle: 0
 UnderlinePosition: -60
 UnderlineWidth: 60
@@ -17,8 +17,8 @@ FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1397065022
-ModificationTime: 1397067978
+CreationTime: 1397068062
+ModificationTime: 1397970992
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -55,6 +55,7 @@ Lookup: 6 0 0 "'ccmp' TH Base Consonant"  {"'ccmp' TH Base Consonant"  } ['ccmp'
 Lookup: 1 0 0 "TH Tone High to Low"  {"TH Tone High to Low" ("low" ) } []
 Lookup: 1 0 0 "TH Tone Low to High"  {"TH Tone Low to High" ("high" ) } []
 Lookup: 1 0 0 "TH Nikhahit High"  {"TH Nikhahit High" ("high" ) } []
+Lookup: 260 0 0 "'mark' TH Mark to Base"  {"'mark' TH Mark to Base"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > 'thai' <'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'ccmp' TH Vow Lower"  0 0 0 1
@@ -224,10 +225,11 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 42 14 8
+WinInfo: 112 14 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
+AnchorClass2: "mkmk-th-above"  "" "mark-th-above"  "'mark' TH Mark to Base" 
 BeginChars: 1114129 223
 
 StartChar: uni0E2D
@@ -275,6 +277,7 @@ VWidth: 0
 Flags: W
 HStem: 0 21G<120 220 490 590> 400 20<269.299 300> 535 85<237.66 431.99>
 VStem: 120 100<0 371.387> 490 100<0 475.783>
+AnchorPoint: "mark-th-above" 590 660 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2209,6 +2212,7 @@ VWidth: 0
 Flags: W
 HStem: 700 65<-269.593 -135.597> 895 45<-340.306 -269.694>
 VStem: -390 45<819.367 890.306> -265 45<819.576 890.306> -75 85<829.239 920>
+AnchorPoint: "mkmk-th-above" 0 0 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2238,6 +2242,7 @@ Width: 0
 VWidth: 0
 Flags: W
 HStem: 790 26<-471 -380.011> 880 70<-447.045 -272.841>
+AnchorPoint: "mark-th-above" -90 680 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2527,6 +2532,7 @@ VWidth: 0
 Flags: W
 HStem: 980 250<-128.162 -110>
 VStem: -190 80<1017 1230>
+AnchorPoint: "mkmk-th-above" 0 0 mark 0
 LayerCount: 2
 Fore
 SplineSet

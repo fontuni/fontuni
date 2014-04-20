@@ -4,7 +4,7 @@ FullName: f0ntuni A
 FamilyName: F0ntUni A
 Weight: Regular
 Copyright: (c) 2014, Sungsit Sawaiwan.\n\nCreated by Sungsit Sawaiwan with the help from F0nt.com community.\n\nThis work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
-Version: v0.1-beta2
+Version: v0.1.1
 ItalicAngle: 0
 UnderlinePosition: -60
 UnderlineWidth: 60
@@ -17,8 +17,8 @@ FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1397063047
-ModificationTime: 1397064754
+CreationTime: 1397064757
+ModificationTime: 1397969274
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
