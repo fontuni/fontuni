@@ -13,33 +13,33 @@
 #
 
 hb-view \
-  --shapers=ot \
+  --shapers=fallback \
   --font-file=../A/f0ntuni-a.otf \
   --font-size=60 \
   --language=th_TH \
   --text-file=test-th.txt \
-  --output-file=harfbuzz-ot-th-a.png --output-format=png
+  --output-file=harfbuzz-fallback-th-a.png --output-format=png
 
 hb-view \
-  --shapers=ot \
+  --shapers=fallback \
   --font-file=../A/f0ntuni-a.otf \
   --font-size=60 \
   --language=pi_TH \
   --text-file=test-pi.txt \
-  --output-file=harfbuzz-ot-pi-a.png --output-format=png
+  --output-file=harfbuzz-fallback-pi-a.png --output-format=png
 
 hb-view \
-  --shapers=ot \
+  --shapers=fallback \
   --font-file=../B/f0ntuni-b.otf \
   --font-size=60 \
   --language=th_TH \
   --text-file=test-th.txt \
-  --output-file=harfbuzz-ot-th-b.png --output-format=png
+  --output-file=harfbuzz-fallback-th-b.png --output-format=png
 
 hb-view \
-  --shapers=ot \
+  --shapers=fallback \
   --font-file=../B/f0ntuni-b.otf \
   --font-size=60 \
   --language=pi_TH \
   --text-file=test-pi.txt \
-  --output-file=harfbuzz-ot-pi-b.png --output-format=png
+  --output-file=harfbuzz-fallback-pi-b.png --output-format=png

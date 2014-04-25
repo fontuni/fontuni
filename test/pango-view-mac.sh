@@ -6,7 +6,7 @@ pango-view test-markup.txt \
   --pixels --width=660 \
   --language=th_TH \
   --markup \
-  --output=pango-a.png
+  --output=pango-mac-a.png
 
 pango-view test-markup.txt \
   --font="F0ntUni B 60px" \
@@ -14,4 +14,4 @@ pango-view test-markup.txt \
   --pixels --width=660 \
   --language=th_TH \
   --markup \
-  --output=pango-b.png
+  --output=pango-mac-b.png
