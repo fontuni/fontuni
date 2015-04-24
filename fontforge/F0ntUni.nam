@@ -1,0 +1,43 @@
+Based: AGL For New Fonts
+
+# Remove descender from base (RD)
+0xF89A  uni0E0D.rd
+0xF89E  uni0E10.rd
+
+## Thai ligatures
+0xF881  uni0E240E45.liga
+0xF882  uni0E260E45.liga
+0xF880  uni0E4F0E480E48.liga
+
+## Shift combining-mark down (SD)
+0xF89B  uni0E38.sd
+0xF89C  uni0E39.sd
+0xF89D  uni0E3A.sd
+0xF88B  uni0E48.sd
+0xF88E  uni0E49.sd
+0xF891  uni0E4A.sd
+0xF894  uni0E4B.sd
+0xF897  uni0E4C.sd
+
+## Shift combining-mark down-left (SDL)
+0xF88C  uni0E48.sdl
+0xF88F  uni0E49.sdl
+0xF892  uni0E4A.sdl
+0xF895  uni0E4B.sdl
+0xF898  uni0E4C.sdl
+
+## Shift combining-mark left (SL)
+0xF884  uni0E31.sl
+0xF885  uni0E34.sl
+0xF886  uni0E35.sl
+0xF887  uni0E36.sl
+0xF888  uni0E37.sl
+0xF889  uni0E47.sl
+
+0xF88A  uni0E48.sl
+0xF88D  uni0E49.sl
+0xF890  uni0E4A.sl
+0xF893  uni0E4B.sl
+0xF896  uni0E4C.sl
+
+0xF899  uni0E4D.sl
