@@ -1,0 +1,67 @@
+include(thai-classes-legacy.fea)
+
+# Lookups
+lookup Thai.sd {
+  sub @T by @T.sd;
+  sub @BV by @BV.sd;
+} Thai.sd;
+
+lookup Thai.sdl {
+  sub @T by @T.sdl;
+} Thai.sdl;
+
+lookup Thai.sl {
+  sub @T by @T.sl;
+  sub @AV by @AV.sl;
+} Thai.sl;
+
+lookup Thai.su {
+  sub \uni0E4D by \uni0E4D.su;
+  sub \uni0E47 by \uni0E47.su;
+} Thai.su;
+
+lookup Thai.sul {
+  sub \uni0E4D by \uni0E4D.sul;
+  sub \uni0E47 by \uni0E47.sul;
+} Thai.sul;
+
+# Messy shaping lookup!
+# This will make legacy fonts support minority languages without `mark` & `mkmk` features.
+lookup ThaiContextStack {
+  lookupflag 0;
+
+    sub @AC' @BV.all' @BV.all' @T.all'lookup Thai.sdl  @AV.all'lookup Thai.sul ;
+    sub @AC' @BV.all' @BV.all' @AV.all'lookup Thai.sl  @AV.all'lookup Thai.sul ;
+    sub @AC' @BV.all' @BV.all' @AV.all'lookup Thai.sl  @T.all'lookup Thai.sl ;
+    sub @AC' @BV.all' @BV.all' @AV.all'lookup Thai.sl  ;
+    sub @AC' @BV.all' @AV.all'lookup Thai.sl  @AV.all'lookup Thai.sul ;
+    sub @AC' @BV.all' @AV.all'lookup Thai.sl  ;
+    sub @AC' @BV.all' @BV.all' @T.all'lookup Thai.sdl  ;
+    sub @AC' @BV.all' @T.all'lookup Thai.sdl  @AV.all'lookup Thai.sul ;
+    sub @AC' @BV.all' @T.all'lookup Thai.sdl  @T.all'lookup Thai.sl ;
+    sub @AC' @BV.all' @T.all'lookup Thai.sdl  ;
+    sub @AC' @AV.all'lookup Thai.sl  @AV.all'lookup Thai.sul ;
+    sub @AC' @AV.all'lookup Thai.sl  @T.all'lookup Thai.sl ;
+    sub @AC' @AV.all'lookup Thai.sl  ;
+    sub @AC' @T.all'lookup Thai.sdl  @T.all'lookup Thai.sl ;
+    sub @AC' @T.all'lookup Thai.sdl  ;
+    
+    sub @DC' @T.all'lookup Thai.sd  @AV.all'lookup Thai.su ;
+    sub @DC' @BV.all'lookup Thai.sd  ;
+    sub @DC' @T.all'lookup Thai.sd  ;
+    
+    sub @NC' @T.all'lookup Thai.sd  @AV.all'lookup Thai.su ;
+    sub @NC' @T.all'lookup Thai.sd  ;
+    
+    sub @BV.all @T.all'lookup Thai.sd  ;
+    sub @AV.all @AV.all'lookup Thai.su  ;
+    sub @T.all @AV.all'lookup Thai.su  ;
+    
+} ThaiContextStack;
+
+
+# GSUB Features
+
+feature ccmp {
+  lookup ThaiContextStack;
+} ccmp;

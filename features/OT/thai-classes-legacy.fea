@@ -1,0 +1,30 @@
+#
+# Thai legacy classes
+#
+# These class and glyph names are derived and modified from
+# Theppitak Karoonboonyanan's Thai script shaping logic.
+# http://linux.thai.net/~thep/th-otf/shaping.html
+#
+# Thai positional variants: SD = shift down, SDL = shift down-left, SL = shift left
+# Additional classes for monority languages: SU = shift up and SUL = shift up-left
+
+include(thai-classes.fea)
+
+# Below vowel/diacritic
+@BV.sd  = [ \uni0E38.sd \uni0E39.sd \uni0E3A.sd ];
+@BV.all = [ @BV @BV.sd ];
+
+# Above vowel/diacritic
+@AV.sl  = [ \uni0E31.sl \uni0E34.sl \uni0E35.sl \uni0E36.sl \uni0E37.sl \uni0E47.sl \uni0E4D.sl \uni0E4E.sl ];
+@AV.su  = [ \uni0E47.su \uni0E4D.su ];
+@AV.sul = [ \uni0E47.sul \uni0E4D.sul ];
+@AV.all = [ @AV @AV.sl @AV.su @AV.sul ];
+
+# Above tone/diacritic
+@T.sd  = [ \uni0E48.sd  \uni0E49.sd  \uni0E4A.sd  \uni0E4B.sd  \uni0E4C.sd  ];
+@T.sdl = [ \uni0E48.sdl \uni0E49.sdl \uni0E4A.sdl \uni0E4B.sdl \uni0E4C.sdl ];
+@T.sl  = [ \uni0E48.sl  \uni0E49.sl  \uni0E4A.sl  \uni0E4B.sl  \uni0E4C.sl  ];
+@T.all = [ @T @T.sd @T.sdl @T.sl ];
+
+
+@MARKS_LEGACY = [ @MARKS @BV.all @AV.all @T.all ];

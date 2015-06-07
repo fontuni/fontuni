@@ -7,7 +7,7 @@ Based: AGL For New Fonts
 ## Thai ligatures
 0xF881  uni0E240E45.liga
 0xF882  uni0E260E45.liga
-0xF880  uni0E4F0E480E48.liga
+0xF880  uni0E4F.extra
 
 ## Shift combining-mark down (SD)
 0xF89B  uni0E38.sd

@@ -1,11 +1,11 @@
-## Thai digits
+include(thai-classes.fea)
+
+@DIGIT.tnum = [ \uni0E50.tnum \uni0E51.tnum \uni0E52.tnum \uni0E53.tnum \uni0E54.tnum \uni0E55.tnum \uni0E56.tnum \uni0E57.tnum \uni0E58.tnum \uni0E59.tnum ];
+
 feature tnum {
 
-  @TD      = [ \uni0E50 \uni0E51 \uni0E52 \uni0E53 \uni0E54 \uni0E55 \uni0E56 \uni0E57 \uni0E58 \uni0E59 ];
-  @TD.tnum = [ \uni0E50.tnum \uni0E51.tnum \uni0E52.tnum \uni0E53.tnum \uni0E54.tnum \uni0E55.tnum \uni0E56.tnum \uni0E57.tnum \uni0E58.tnum \uni0E59.tnum ];
-
   lookup Thai.tnum {
-    sub @TD by @TD.tnum;
+    sub @DIGIT by @DIGIT.tnum;
   } Thai.tnum;
 
 } tnum;

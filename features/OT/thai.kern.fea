@@ -1,4 +1,6 @@
+include(thai-classes.fea)
 
+# Todo: rearrange this
 lookup Thai.kern {
   lookupflag 0;
     @kc0_first_1 = [\uni0E40 \uni0E41 \uni0E42 \uni0E43 \uni0E44 ];

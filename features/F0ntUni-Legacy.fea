@@ -11,13 +11,14 @@ languagesystem thai SAN ;
 # Do not reorder these files unless you know what you do.
 
 # GDEF
-include(OT/thai-simple.gdef.fea)
+include(OT/thai-legacy.gdef.fea)
 
 # GSUB
 include(OT/thai-extra.fea)
 include(OT/thai-core.fea)
+include(OT/thai-legacy.ccmp.fea)
+
 
 # GPOS
 include(OT/thai.kern.fea)
-include(OT/thai-simple.mark.fea)
-include(OT/thai-simple.mkmk.fea)
+# Todo: add @BV.mkmk

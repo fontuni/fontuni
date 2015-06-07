@@ -1,3 +1,5 @@
+include(thai-classes.fea)
+
 lookup ThaiBelow.mkmk {
   lookupflag 0;
   markClass [\uni0E38 \uni0E39 \uni0E3A ] <anchor 0 0> @ThaiBelow.mkmk;
