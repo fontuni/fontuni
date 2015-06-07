@@ -1,0 +1,24 @@
+languagesystem DFLT dflt;
+languagesystem DFLT PAL ;
+languagesystem DFLT SAN ;
+languagesystem latn dflt;
+languagesystem latn PAL ;
+languagesystem latn SAN ;
+languagesystem thai dflt;
+languagesystem thai PAL ;
+languagesystem thai SAN ;
+
+# Do not reorder these files unless you know what you do.
+
+# GSUB
+include(OT/thai-core.fea)
+include(OT/thai-extra.fea)
+
+
+# GPOS
+include(OT/thai.kern.fea)
+include(OT/thai-simple.mark.fea)
+include(OT/thai-simple.mkmk.fea)
+
+# GDEF
+include(OT/thai-simple.gdef.fea)
