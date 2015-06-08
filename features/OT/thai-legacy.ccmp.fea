@@ -52,7 +52,7 @@ lookup ThaiContext.sdl {
 } ThaiContext.sdl;
 
 lookup ThaiContext.sd {
-  sub [ @NC @DC @RC @RC.rd @BV.all \uni0E4F ]' @T' lookup Thai.sd;
+  sub [ @NC @DC @RC @RC.rd @BV.all ]' @T' lookup Thai.sd;
   sub @DC' @BV' lookup ThaiBV.sd;
 } ThaiContext.sd;
 
@@ -63,7 +63,6 @@ lookup ThaiContext.fallback {
   sub [ @AV.sl @AV.sul @T.sl @T.sdl ] @T' lookup Thai.sl;
   
   # For @NC @DC @RC @RC.rd
-  #sub @DC @BV.all @T @AV' lookup Thai.su;
   sub [ @AV @AV.su @T.sd @T ]' [ @AV @T ]' lookup Thai.su;
   
   # For @BV

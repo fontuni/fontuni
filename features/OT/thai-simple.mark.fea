@@ -74,8 +74,8 @@ lookup ThaiOpt.mark {
 lookup ThaiContext.mark {
   lookupflag 0;
 
-    pos [@NC @DC @RC @RC.rd ] [ @T \uni0E31 \uni0E47 \uni0E4D ]'lookup ThaiLegacyOpt.mark [ @LV.tall ];
-    pos [ @T \uni0E31 \uni0E47 \uni0E4D ]'lookup ThaiLegacyOpt.mark @AC [ \uni0E34 - \uni0E37 ];
+    pos [@NC @DC @RC @RC.rd ] [ @T \uni0E31 \uni0E47 \uni0E4D ]'lookup ThaiOpt.mark [ @LV.tall ];
+    pos [ @T \uni0E31 \uni0E47 \uni0E4D ]'lookup ThaiOpt.mark @AC [ \uni0E34 - \uni0E37 ];
     
 } ThaiContext.mark;
 
