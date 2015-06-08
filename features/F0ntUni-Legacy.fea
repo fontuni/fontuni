@@ -23,6 +23,3 @@ include(OT/thai-legacy.ccmp.fea)
 include(OT/thai.kern.fea)
 include(OT/thai-legacy.mark.fea)
 include(OT/thai-legacy.mkmk.fea)
-
-
-

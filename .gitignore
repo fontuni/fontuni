@@ -14,3 +14,4 @@ build/*
 bak/*
 *.sfd-*
 *.bak
+test/*

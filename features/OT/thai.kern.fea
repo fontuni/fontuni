@@ -23,14 +23,5 @@ lookup Thai.kern {
 } Thai.kern;
 
 feature kern {
-  script DFLT;
-     language dflt ;
-      lookup Thai.kern;
-  script latn;
-     language dflt ;
-      lookup Thai.kern;
-  script thai;
-     language dflt ;
-      lookup Thai.kern;
-
+  lookup Thai.kern;
 } kern;
