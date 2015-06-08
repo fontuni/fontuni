@@ -1,10 +1,16 @@
 include(thai-classes-legacy.fea)
 
-# Lookups
+#
+# Basic subsitutions
+#
+
 lookup Thai.sd {
   sub @T by @T.sd;
-  sub @BV by @BV.sd;
 } Thai.sd;
+
+lookup ThaiBV.sd {
+  sub @BV by @BV.sd;
+} ThaiBV.sd;
 
 lookup Thai.sdl {
   sub @T by @T.sdl;
@@ -27,9 +33,11 @@ lookup Thai.sul {
   sub @T.sdl by @T.sl;
 } Thai.sul;
 
-
-# A messy complex shaping!
-# This lookup aims to handle Thai text stacks to later deal with `mkmk` for minority languages support.
+#
+# Messy shaping!
+# These contextual lookups aim to handle Thai complex stacks to later deal with `mkmk`
+# for minority languages support.
+#
 
 lookup ThaiContext.sl {
   sub @AC' @BV' @BV' @AV' lookup Thai.sl;
@@ -44,28 +52,32 @@ lookup ThaiContext.sdl {
 } ThaiContext.sdl;
 
 lookup ThaiContext.sd {
-  sub @DC' @BV' lookup Thai.sd;
   sub [ @NC @DC @RC @RC.rd @BV.all \uni0E4F ]' @T' lookup Thai.sd;
+  sub @DC' @BV' lookup ThaiBV.sd;
 } ThaiContext.sd;
 
 lookup ThaiContext.fallback {
   
   # For @AC
-  sub [ @AV.sl @AV.sul @T.sl @T.sdl ]' @AV' lookup Thai.sul;
-  sub [ @AV.sl @T.sl @T.sdl ]' @T' lookup Thai.sl;
+  sub [ @AV.sl @AV.sul @T.sl @T.sdl ] @AV' lookup Thai.sul;
+  sub [ @AV.sl @AV.sul @T.sl @T.sdl ] @T' lookup Thai.sl;
   
   # For @NC @DC @RC @RC.rd
+  #sub @DC @BV.all @T @AV' lookup Thai.su;
   sub [ @AV @AV.su @T.sd @T ]' [ @AV @T ]' lookup Thai.su;
   
+  # For @BV
   sub @BV.all' @T' lookup Thai.sd;
+  
+  # For @T
+  sub @T.all [ @AV @T ]' lookup Thai.su;
   
 } ThaiContext.fallback;
 
+# Set them all here!
 feature ccmp {
-
   lookup ThaiContext.sl;
   lookup ThaiContext.sdl;
   lookup ThaiContext.sd;
   lookup ThaiContext.fallback;
-
 } ccmp;

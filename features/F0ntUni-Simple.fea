@@ -8,7 +8,7 @@ languagesystem thai dflt;
 languagesystem thai PAL ;
 languagesystem thai SAN ;
 
-# Do not reorder these files unless you know what you do.
+# Do not reorder these included files unless you know what you do.
 
 # GDEF
 include(OT/thai-simple.gdef.fea)

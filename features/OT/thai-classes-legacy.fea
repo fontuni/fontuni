@@ -6,7 +6,7 @@
 # http://linux.thai.net/~thep/th-otf/shaping.html
 #
 # Thai positional variants: SD = shift down, SDL = shift down-left, SL = shift left
-# Additional classes for monority languages: SU = shift up and SUL = shift up-left
+# Additional classes for minority languages: SU = shift up and SUL = shift up-left
 
 include(thai-classes.fea)
 
