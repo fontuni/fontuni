@@ -18,50 +18,54 @@ lookup Thai.sl {
 lookup Thai.su {
   sub \uni0E4D by \uni0E4D.su;
   sub \uni0E47 by \uni0E47.su;
+  sub @T.sd by @T;
 } Thai.su;
 
 lookup Thai.sul {
   sub \uni0E4D by \uni0E4D.sul;
   sub \uni0E47 by \uni0E47.sul;
+  sub @T.sdl by @T.sl;
 } Thai.sul;
 
-# Messy shaping lookup!
-# This will make legacy fonts support minority languages without `mark` & `mkmk` features.
-lookup ThaiContextStack {
-  lookupflag 0;
 
-    sub @AC' @BV.all' @BV.all' @T.all'lookup Thai.sdl  @AV.all'lookup Thai.sul ;
-    sub @AC' @BV.all' @BV.all' @AV.all'lookup Thai.sl  @AV.all'lookup Thai.sul ;
-    sub @AC' @BV.all' @BV.all' @AV.all'lookup Thai.sl  @T.all'lookup Thai.sl ;
-    sub @AC' @BV.all' @BV.all' @AV.all'lookup Thai.sl  ;
-    sub @AC' @BV.all' @AV.all'lookup Thai.sl  @AV.all'lookup Thai.sul ;
-    sub @AC' @BV.all' @AV.all'lookup Thai.sl  ;
-    sub @AC' @BV.all' @BV.all' @T.all'lookup Thai.sdl  ;
-    sub @AC' @BV.all' @T.all'lookup Thai.sdl  @AV.all'lookup Thai.sul ;
-    sub @AC' @BV.all' @T.all'lookup Thai.sdl  @T.all'lookup Thai.sl ;
-    sub @AC' @BV.all' @T.all'lookup Thai.sdl  ;
-    sub @AC' @AV.all'lookup Thai.sl  @AV.all'lookup Thai.sul ;
-    sub @AC' @AV.all'lookup Thai.sl  @T.all'lookup Thai.sl ;
-    sub @AC' @AV.all'lookup Thai.sl  ;
-    sub @AC' @T.all'lookup Thai.sdl  @T.all'lookup Thai.sl ;
-    sub @AC' @T.all'lookup Thai.sdl  ;
-    
-    sub @DC' @T.all'lookup Thai.sd  @AV.all'lookup Thai.su ;
-    sub @DC' @BV.all'lookup Thai.sd  ;
-    sub @DC' @T.all'lookup Thai.sd  ;
-    
-    sub @NC' @T.all'lookup Thai.sd  @AV.all'lookup Thai.su ;
-    sub @NC' @T.all'lookup Thai.sd  ;
-    
-    sub @BV.all @T.all'lookup Thai.sd  ;
-    sub @AV.all @AV.all'lookup Thai.su  ;
-    sub @T.all @AV.all'lookup Thai.su  ;
-    
-} ThaiContextStack;
+# A messy complex shaping!
+# This lookup aims to handle Thai text stacks to later deal with `mkmk` for minority languages support.
 
+lookup ThaiContext.sl {
+  sub @AC' @BV' @BV' @AV' lookup Thai.sl;
+  sub @AC' @BV' @AV' lookup Thai.sl;
+  sub @AC' @AV' lookup Thai.sl;
+} ThaiContext.sl;
 
-# GSUB Features
+lookup ThaiContext.sdl {
+  sub @AC' @BV' @BV @T' lookup Thai.sdl;
+  sub @AC' @BV' @T' lookup Thai.sdl;
+  sub @AC' @T' lookup Thai.sdl;
+} ThaiContext.sdl;
+
+lookup ThaiContext.sd {
+  sub @DC' @BV' lookup Thai.sd;
+  sub [ @NC @DC @RC @RC.rd @BV.all \uni0E4F ]' @T' lookup Thai.sd;
+} ThaiContext.sd;
+
+lookup ThaiContext.fallback {
+  
+  # For @AC
+  sub [ @AV.sl @AV.sul @T.sl @T.sdl ]' @AV' lookup Thai.sul;
+  sub [ @AV.sl @T.sl @T.sdl ]' @T' lookup Thai.sl;
+  
+  # For @NC @DC @RC @RC.rd
+  sub [ @AV @AV.su @T.sd @T ]' [ @AV @T ]' lookup Thai.su;
+  
+  sub @BV.all' @T' lookup Thai.sd;
+  
+} ThaiContext.fallback;
 
 feature ccmp {
-  lookup ThaiContextStack;
+
+  lookup ThaiContext.sl;
+  lookup ThaiContext.sdl;
+  lookup ThaiContext.sd;
+  lookup ThaiContext.fallback;
+
 } ccmp;

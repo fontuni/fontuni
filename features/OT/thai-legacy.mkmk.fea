@@ -1,0 +1,52 @@
+
+lookup Thai.mkmk {
+
+  # ThaiBelow
+  markClass [\uni0E38 \uni0E39 \uni0E3A ] <anchor 0 450> @ThaiBelow.mkmk;
+  
+  pos mark [\uni0E38 \uni0E39 ] <anchor 0 180> mark @ThaiBelow.mkmk;
+  pos mark [\uni0E3A ] <anchor 0 240> mark @ThaiBelow.mkmk;
+  pos mark [\uni0E38.sd \uni0E39.sd ] <anchor 0 0> mark @ThaiBelow.mkmk;
+  pos mark [\uni0E3A.sd ] <anchor 0 60> mark @ThaiBelow.mkmk;
+  
+  # ThaiAbove
+  markClass [\uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C \uni0E4D.su ] <anchor 0 900> @ThaiAbove.mkmk;
+  markClass [\uni0E47.su ] <anchor -60 900> @ThaiAbove.mkmk;
+  
+  pos mark [\uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C \uni0E4D.su ] <anchor 0 1140> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E47.su ] <anchor -60 1140> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E31 \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E48.sd \uni0E4B.sd] <anchor 0 900> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E49.sd ] <anchor -45 900> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E4A.sd ] <anchor -60 900> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E4C.sd ] <anchor -30 900> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E47 ] <anchor -75 900> mark @ThaiAbove.mkmk;
+  pos mark [\uni0E4D ] <anchor -15 900> mark @ThaiAbove.mkmk;
+  
+  # ThaiAbove.left
+  markClass [\uni0E48.sl \uni0E49.sl \uni0E4A.sl \uni0E4B.sl \uni0E4C.sl ] <anchor -300 900> @ThaiAbove.left.mkmk;
+
+  markClass [\uni0E4D.sul ] <anchor -325 900> @ThaiAbove.left.mkmk;
+  markClass [\uni0E47.sul ] <anchor -360 900> @ThaiAbove.left.mkmk;
+  #markClass [\uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C \uni0E4D.su ] <anchor -140 900> @ThaiAbove.left.mkmk;
+    
+  pos mark [\uni0E31.sl ] <anchor -375 900> mark @ThaiAbove.left.mkmk;
+  pos mark [\uni0E4D.sl ] <anchor -340 900> mark @ThaiAbove.left.mkmk;
+  pos mark [\uni0E47.sl ] <anchor -390 900> mark @ThaiAbove.left.mkmk;
+  
+  pos mark [\uni0E48.sl \uni0E49.sl \uni0E4A.sl \uni0E4B.sl ] <anchor -300 1140> mark @ThaiAbove.left.mkmk;
+  pos mark [\uni0E4C.sl ] <anchor -270 1140> mark @ThaiAbove.left.mkmk;
+
+} Thai.mkmk;
+
+feature mkmk {
+  script DFLT;
+     language dflt ;
+      lookup Thai.mkmk;
+  script latn;
+     language dflt ;
+      lookup Thai.mkmk;
+  script thai;
+     language dflt ;
+      lookup Thai.mkmk;
+
+} mkmk;

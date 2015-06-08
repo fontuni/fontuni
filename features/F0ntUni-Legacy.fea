@@ -21,4 +21,23 @@ include(OT/thai-legacy.ccmp.fea)
 
 # GPOS
 include(OT/thai.kern.fea)
-# Todo: add @BV.mkmk
+
+include(OT/thai-legacy.mark.fea)
+
+# Todo: add infinite top-side mkmk
+lookup ThaiLegacy.mkmk {
+
+  # ThaiBelow
+  markClass [\uni0E38 \uni0E39 \uni0E3A ] <anchor 0 450> @ThaiLegacyBelow.mkmk;
+  
+  pos mark [\uni0E38 \uni0E39 ] <anchor 0 180> mark @ThaiLegacyBelow.mkmk;
+  pos mark [\uni0E3A ] <anchor 0 240> mark @ThaiLegacyBelow.mkmk;
+  pos mark [\uni0E38.sd \uni0E39.sd ] <anchor 0 0> mark @ThaiLegacyBelow.mkmk;
+  pos mark [\uni0E3A.sd ] <anchor 0 60> mark @ThaiLegacyBelow.mkmk;
+
+} ThaiLegacy.mkmk;
+
+feature mkmk {
+  lookup ThaiLegacy.mkmk;
+} mkmk;
+

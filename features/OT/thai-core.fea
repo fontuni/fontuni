@@ -41,10 +41,10 @@ lookup Thai0E4D.0E4B {
 
 # Reorder Nikhahit (uni0E4D) & Tones
 lookup ThaiContext.ro {
-  sub \uni0E48' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E48 @ZWJ \uni0E32;
-  sub \uni0E49' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E49 @ZWJ \uni0E32;
-  sub \uni0E4A' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E4A @ZWJ \uni0E32;
-  sub \uni0E4B' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E4B @ZWJ \uni0E32;
+  sub \uni0E48' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E48 @ZWJ' \uni0E32';
+  sub \uni0E49' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E49 @ZWJ' \uni0E32';
+  sub \uni0E4A' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E4A @ZWJ' \uni0E32';
+  sub \uni0E4B' lookup ThaiT.0E4D \uni0E4D' lookup Thai0E4D.0E4B @ZWJ' \uni0E32';
 } ThaiContext.ro; 
 
 #
