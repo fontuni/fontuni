@@ -1,6 +1,12 @@
 #
-# Thai global classes
+# Copyright (c) 2015 Sungsit Sawaiwan
 #
+# This file is licensed under the MIT License (MIT).
+# You should have received a copy of the MIT License along with this file.
+# If not, see <http://opensource.org/licenses/MIT>.
+#
+
+# Thai global classes
 
 # Normal (baseline) consonants
 # Dotted Circle (uni25CC) was included here so it can be used as mark base placeholder.

@@ -1,6 +1,0 @@
-include(thai-classes.fea)
-include(thai-classes-legacy.fea)
-
-table GDEF {
-  GlyphClassDef @BASE, @LIGATURES, @MARKS_LEGACY, ;
-} GDEF;

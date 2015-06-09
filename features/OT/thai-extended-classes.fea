@@ -1,14 +1,21 @@
 #
-# Thai legacy classes
+# Copyright (c) 2015 Sungsit Sawaiwan
 #
-# These class and glyph names are derived and modified from
+# This file is licensed under the MIT License (MIT).
+# You should have received a copy of the MIT License along with this file.
+# If not, see <http://opensource.org/licenses/MIT>.
+#
+
+# Thai legacy classes
+
+# These class and glyph naming are derived and modified from
 # Theppitak Karoonboonyanan's Thai script shaping logic.
 # http://linux.thai.net/~thep/th-otf/shaping.html
 #
 # Thai positional variants: SD = shift down, SDL = shift down-left, SL = shift left
 # Additional classes for minority languages: SU = shift up and SUL = shift up-left
 
-include(thai-classes.fea)
+include(thai-basic-classes.fea)
 
 # Below vowel/diacritic
 @BV.sd  = [ \uni0E38.sd \uni0E39.sd \uni0E3A.sd ];

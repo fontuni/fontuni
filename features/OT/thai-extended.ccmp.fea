@@ -1,8 +1,14 @@
-include(thai-classes-legacy.fea)
+#
+# Copyright (c) 2015 Sungsit Sawaiwan
+#
+# This file is licensed under the MIT License (MIT).
+# You should have received a copy of the MIT License along with this file.
+# If not, see <http://opensource.org/licenses/MIT>.
+#
 
-#
+include(thai-extended-classes.fea)
+
 # Basic subsitutions
-#
 
 lookup Thai.sd {
   sub @T by @T.sd;
@@ -33,11 +39,9 @@ lookup Thai.sul {
   sub @T.sdl by @T.sl;
 } Thai.sul;
 
-#
-# Messy shaping!
-# These contextual lookups aim to handle Thai complex stacks to later deal with `mkmk`
-# for minority languages support.
-#
+# This contextual `ccmp` feature aims to handle Thai complex layout without HarfBuzz.
+# Basically, it would work for various OpenType shaping engines (UniScribe, CoreText, Adobe World-Ready)
+# to support minority languages which require extra Tonemarks/Diacrtics.
 
 lookup ThaiContext.sl {
   sub @AC' @BV' @BV' @AV' lookup Thai.sl;
@@ -57,23 +61,23 @@ lookup ThaiContext.sd {
 } ThaiContext.sd;
 
 lookup ThaiContext.fallback {
-  
+
   # For @AC
   sub [ @AV.sl @AV.sul @T.sl @T.sdl ] @AV' lookup Thai.sul;
   sub [ @AV.sl @AV.sul @T.sl @T.sdl ] @T' lookup Thai.sl;
-  
+
   # For @NC @DC @RC @RC.rd
   sub [ @AV @AV.su @T.sd @T ]' [ @AV @T ]' lookup Thai.su;
-  
+
   # For @BV
   sub @BV.all' @T' lookup Thai.sd;
-  
+
   # For @T
   sub @T.all [ @AV @T ]' lookup Thai.su;
-  
+
 } ThaiContext.fallback;
 
-# Set them all here!
+# Set them all here.
 feature ccmp {
   lookup ThaiContext.sl;
   lookup ThaiContext.sdl;

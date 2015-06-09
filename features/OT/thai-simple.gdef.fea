@@ -1,5 +1,0 @@
-include(thai-classes.fea)
-
-table GDEF {
-  GlyphClassDef @BASE, @LIGATURES, @MARKS, ;
-} GDEF;
