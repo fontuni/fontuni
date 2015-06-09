@@ -50,13 +50,7 @@
 # Zero-width space
 @ZWJ = [ \uni200D ];
 
-# These classes maybe useful for referencing.
-# FontForge automagically adds GDEF table whenever it generates new font 
-# but it doesn't do that when import feature files so including predefined GDEF can fix it.
-# And it seems Adobe complex layout engine (World-Ready) needs GDEF to display Thai @MARKS correctly.
-
+# These classes maybe useful for referencing and GDEF table.
 @BASE = [ @NC @AC @DC @RC @RC.rd @LV @FV @IV @SB @DIGIT ];
-
 @LIGATURES = [ \uni0E240E45.liga \uni0E260E45.liga \uni0E4F.extra ];
-
 @MARKS = [ @AV @BV @T ];

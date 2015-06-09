@@ -8,6 +8,11 @@
 
 include(thai-basic-classes.fea)
 
+# FontForge automagically adds GDEF table whenever it generates new font. 
+# But it doesn't add @MARKS correctly when import feature files from GUI.
+# So including predefined GDEF here will never hurt anyone!
+# And it seems Adobe complex layout engine (World-Ready) needs GDEF to display Thai @MARKS correctly.
+
 table GDEF {
   GlyphClassDef @BASE, @LIGATURES, @MARKS, ;
 } GDEF;

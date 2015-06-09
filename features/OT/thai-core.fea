@@ -6,7 +6,7 @@
 # If not, see <http://opensource.org/licenses/MIT>.
 #
 
-# Shared functionalities for basic Thai shaping
+# Shared functionalities for Thai shaping
 
 include(thai-basic-classes.fea)
 
@@ -138,11 +138,8 @@ feature salt {
 } salt;
 
 feature ss01 {
-
   featureNames {
     name "Pali-Sanskrit";
   };
-  
   lookup ThaiRC.rd;
-
 } ss01;

@@ -8,10 +8,10 @@ languagesystem DFLT dflt;
 # If not, see <http://opensource.org/licenses/MIT>.
 #
 
-# Thai fonts don't need any GSUB feature to work with HarfBuzz when the font has vender's legacy PUA glyphs.
+# Thai font doesn't need any GSUB feature to work for HarfBuzz when that font has vender's legacy PUA glyphs.
 # See <https://github.com/behdad/harfbuzz/blob/master/src/hb-ot-shape-complex-thai.cc>.
 # If we add any feature with Thai script tag, HarfBuzz will disable its Thai built-in functionality.
-# F0ntUni Vanilla uses Mac OS Thai PUA codepoints. See <http://linux.thai.net/~thep/th-otf/shaping.html>
+# F0ntUni uses Mac OS Thai PUA codepoints. See <http://linux.thai.net/~thep/th-otf/shaping.html>
 
 # At least, let's define glyph class for GDEF table.
 include(OT/thai-extended.gdef.fea)
