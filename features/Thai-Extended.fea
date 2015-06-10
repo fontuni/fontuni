@@ -7,12 +7,13 @@ languagesystem thai PAL ;
 languagesystem thai SAN ;
 
 #
-# Copyright (c) 2015 Sungsit Sawaiwan
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
 #
-# This file is licensed under the MIT License (MIT).
-# You should have received a copy of the MIT License along with this file.
-# If not, see <http://opensource.org/licenses/MIT>.
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
 #
+
 # Do not reorder these included files unless you know what you do.
 
 

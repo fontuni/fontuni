@@ -1,10 +1,10 @@
 #!/usr/bin/env fontforge
 #
-# Copyright (c) 2015 Sungsit Sawaiwan
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
 #
-# This file is licensed under the MIT License (MIT).
-# You should have received a copy of the MIT License along with this file.
-# If not, see <http://opensource.org/licenses/MIT>.
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
 #
 
 # This script will only work with FontForge's Python extension.
@@ -39,12 +39,12 @@ def printFontInfo(fontfile):
 
 def clearThaiPUA(source):
   font = fontforge.open(source)
-  font.encoding = "UnicodeFull"
-  font.selection.select(("ranges","unicode"),"uniF884","uniF899")
+  font.encoding = 'UnicodeFull'
+  font.selection.select(('ranges','unicode'),'uniF884','uniF899')
   font.clear()
-  font.selection.select(("ranges","unicode"),"uniF89B","uniF89D")
+  font.selection.select(('ranges','unicode'),'uniF89B','uniF89D)
   font.clear()
-  font.selection.select(("ranges","unicode"),"uniF8A0","uniF8A4")
+  font.selection.select(('ranges','unicode'),'uniF8A0','uniF8A4')
   font.clear()
   
 def buildFont(source,family,feature):
