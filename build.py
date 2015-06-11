@@ -42,7 +42,7 @@ def clearThaiPUA(source):
   font.encoding = 'UnicodeFull'
   font.selection.select(('ranges','unicode'),'uniF884','uniF899')
   font.clear()
-  font.selection.select(('ranges','unicode'),'uniF89B','uniF89D)
+  font.selection.select(('ranges','unicode'),'uniF89B','uniF89D')
   font.clear()
   font.selection.select(('ranges','unicode'),'uniF8A0','uniF8A4')
   font.clear()
