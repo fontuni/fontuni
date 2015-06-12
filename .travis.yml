@@ -13,4 +13,4 @@ install:
   - cp /usr/lib/python2.7/dist-packages/fontforge.* /home/travis/virtualenv/python2.7.9/lib/python2.7/site-packages
   - "pip install git+https://github.com/behdad/fonttools.git"
 
-scripts: fontforge -script build.py
+script: fontforge -script build.py
