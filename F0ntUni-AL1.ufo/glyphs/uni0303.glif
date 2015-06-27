@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0303" format="1">
+  <advance width="0"/>
+  <unicode hex="0303"/>
+  <outline>
+    <contour>
+      <point x="171" y="870" type="line" smooth="yes"/>
+      <point x="184" y="869"/>
+      <point x="200" y="854"/>
+      <point x="200" y="844" type="qcurve" smooth="yes"/>
+      <point x="200" y="839"/>
+      <point x="199" y="836" type="qcurve" smooth="yes"/>
+      <point x="161" y="730"/>
+      <point x="73" y="730" type="qcurve" smooth="yes"/>
+      <point x="48" y="730"/>
+      <point x="3" y="751"/>
+      <point x="-14" y="766"/>
+      <point x="-30" y="782" type="qcurve" smooth="yes"/>
+      <point x="-67" y="818"/>
+      <point x="-81" y="818" type="qcurve" smooth="yes"/>
+      <point x="-84" y="818"/>
+      <point x="-97" y="806"/>
+      <point x="-115" y="779"/>
+      <point x="-121" y="763" type="qcurve" smooth="yes"/>
+      <point x="-125" y="752"/>
+      <point x="-149" y="738"/>
+      <point x="-163" y="738" type="qcurve" smooth="yes"/>
+      <point x="-170" y="738" type="line" smooth="yes"/>
+      <point x="-183" y="739"/>
+      <point x="-199" y="755"/>
+      <point x="-199" y="765" type="qcurve" smooth="yes"/>
+      <point x="-199" y="767"/>
+      <point x="-197" y="773" type="qcurve" smooth="yes"/>
+      <point x="-156" y="878"/>
+      <point x="-71" y="878" type="qcurve" smooth="yes"/>
+      <point x="-59" y="878"/>
+      <point x="-39" y="875"/>
+      <point x="-20" y="866"/>
+      <point x="-7" y="860"/>
+      <point x="10" y="847"/>
+      <point x="17" y="841"/>
+      <point x="25" y="833" type="qcurve" smooth="yes"/>
+      <point x="34" y="824" type="line" smooth="yes"/>
+      <point x="68" y="790"/>
+      <point x="83" y="790" type="qcurve" smooth="yes"/>
+      <point x="85" y="790"/>
+      <point x="100" y="802"/>
+      <point x="118" y="829"/>
+      <point x="123" y="844" type="qcurve" smooth="yes"/>
+      <point x="133" y="870"/>
+      <point x="166" y="870" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

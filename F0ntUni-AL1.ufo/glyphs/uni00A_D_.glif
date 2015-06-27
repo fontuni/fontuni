@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni00AD" format="1">
+  <advance width="540"/>
+  <unicode hex="00AD"/>
+  <outline>
+    <contour>
+      <point x="459" y="342" type="line" smooth="yes"/>
+      <point x="457" y="328"/>
+      <point x="426" y="305"/>
+      <point x="406" y="304" type="qcurve" smooth="yes"/>
+      <point x="344" y="301"/>
+      <point x="289" y="301" type="qcurve" smooth="yes"/>
+      <point x="187" y="301"/>
+      <point x="115" y="310" type="qcurve" smooth="yes"/>
+      <point x="99" y="311"/>
+      <point x="81" y="328"/>
+      <point x="81" y="339" type="qcurve" smooth="yes"/>
+      <point x="81" y="346"/>
+      <point x="83" y="350" type="qcurve" smooth="yes"/>
+      <point x="88" y="363"/>
+      <point x="120" y="380"/>
+      <point x="138" y="380" type="qcurve" smooth="yes"/>
+      <point x="145" y="380" type="line"/>
+      <point x="215" y="373"/>
+      <point x="298" y="373" type="qcurve" smooth="yes"/>
+      <point x="352" y="373"/>
+      <point x="414" y="376" type="qcurve" smooth="yes"/>
+      <point x="416" y="376" type="line" smooth="yes"/>
+      <point x="435" y="376"/>
+      <point x="459" y="358"/>
+      <point x="459" y="345" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

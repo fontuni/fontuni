@@ -13,7 +13,7 @@ import os
 
 # Predifined vars
 family = 'F0ntUni'
-version = '1.0-beta1'
+version = '1.0-beta2'
 source = 'F0ntUni.ufo'
 copyright =  'Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com). This Font Software is licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL).'
 features = ['Bare', 'Basic', 'Extended']
