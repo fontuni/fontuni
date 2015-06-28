@@ -48,16 +48,20 @@ feature liga {
 } liga;
 
 # fractions
+lookup LatinSlash.frac {
+  sub \slash by \fraction;
+} LatinSlash.frac;
+
 lookup Latin.frac {
-  sub \one \slash \four by \onequarter;
+
   sub \one \fraction \four by \onequarter;
-  sub \one \slash \two by \onehalf;
   sub \one \fraction \two by \onehalf;
-  sub \three \slash \four by \threequarters;
   sub \three \fraction \four by \threequarters;
+
 } Latin.frac;
 
 feature frac {
+  lookup LatinSlash.frac;
   lookup Latin.frac;
 } frac;
 
