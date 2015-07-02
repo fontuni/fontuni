@@ -1,7 +1,4 @@
 languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem latn PAL ;
-languagesystem latn SAN ;
 languagesystem thai dflt;
 languagesystem thai PAL ;
 languagesystem thai SAN ;

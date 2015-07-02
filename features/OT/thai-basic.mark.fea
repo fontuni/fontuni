@@ -47,11 +47,15 @@ lookup ThaiAbove.mark {
 
 lookup ThaiAbove.left.mark {
   lookupflag 0;
-  markClass [\uni0E31 \uni0E4D ] <anchor -90 0> @ThaiAbove.left.mark;
-  markClass [\uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E47 \uni0E4E ] <anchor -180 0> @ThaiAbove.left.mark;
-  markClass [\uni0E48 \uni0E49 \uni0E4A \uni0E4B \uni0E4C ] <anchor -90 270> @ThaiAbove.left.mark;
-  pos base [\uni0E1B \uni0E1D ] <anchor 390 0> mark @ThaiAbove.left.mark;
-  pos base [\uni0E1F ] <anchor 420 0> mark @ThaiAbove.left.mark;
+  markClass [ \uni0E31 ] <anchor -80 0> @ThaiAbove.left.mark;
+  markClass [ \uni0E4D ] <anchor -120 0> @ThaiAbove.left.mark;
+  markClass [ \uni0E34 \uni0E35 \uni0E36 \uni0E37 \uni0E47 ] <anchor -180 0> @ThaiAbove.left.mark;
+  markClass [ \uni0E4E ] <anchor -240 0> @ThaiAbove.left.mark;
+  markClass [ \uni0E48 ] <anchor -120 270> @ThaiAbove.left.mark;
+  markClass [ uni0E49 \uni0E4A \uni0E4B \uni0E4C ] <anchor -90 270> @ThaiAbove.left.mark;
+  pos base [ \uni0E1B ] <anchor 390 0> mark @ThaiAbove.left.mark;
+  pos base [ \uni0E1D ] <anchor 420 0> mark @ThaiAbove.left.mark;
+  pos base [ \uni0E1F ] <anchor 450 0> mark @ThaiAbove.left.mark;
 } ThaiAbove.left.mark;
 
 # Optinal mark to prevent glyph overlapping when lower tone followed by high vowels.

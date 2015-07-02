@@ -57,18 +57,6 @@ lookup ThaiContext.ro {
 
 feature locl {
 
-  script DFLT;
-    language PAL exclude_dflt;
-      lookup ThaiRC.rd;
-    language SAN exclude_dflt;
-      lookup ThaiRC.rd;
-
-  script latn;
-    language PAL exclude_dflt;
-      lookup ThaiRC.rd;
-    language SAN exclude_dflt;
-      lookup ThaiRC.rd;
-
   script thai;
     language PAL exclude_dflt;
       lookup ThaiRC.rd;
@@ -79,52 +67,14 @@ feature locl {
 
 feature ccmp {
 
-  script DFLT;
-    language dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
-    language PAL exclude_dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
-      lookup ThaiRC.rd;
-    language SAN exclude_dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
-      lookup ThaiRC.rd;
-
-  script latn;
-    language dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
-    language PAL exclude_dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
-      lookup ThaiRC.rd;
-    language SAN exclude_dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
-      lookup ThaiRC.rd;
-
   script thai;
     language dflt;
       lookup ThaiContextRC.rd;
       lookup ThaiDecomp;
       lookup ThaiContext.ro;  
     language PAL exclude_dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
       lookup ThaiRC.rd;
     language SAN exclude_dflt;
-      lookup ThaiContextRC.rd;
-      lookup ThaiDecomp;
-      lookup ThaiContext.ro;
       lookup ThaiRC.rd;
 
 } ccmp;
@@ -134,12 +84,13 @@ feature ccmp {
 # to Pali/Sanskrit prefered form of uni0E0D (ญ) and uni0E10 (ฐ).
 
 feature salt {
-  lookup ThaiRC.rd;
+  script thai;
+    language dflt ;
+      lookup ThaiRC.rd;
 } salt;
 
 feature ss01 {
-  featureNames {
-    name "Pali-Sanskrit";
-  };
-  lookup ThaiRC.rd;
+  script thai;
+    language dflt ;
+      lookup ThaiRC.rd;
 } ss01;
