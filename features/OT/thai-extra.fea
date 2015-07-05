@@ -19,7 +19,7 @@ lookup Thai.liga {
 
 # Thai historical character, a little bit tricky for OT to make this works across platforms.
 # So we need more than just one feature.
-# ๏่่ dlig & calt work on adobe
+# dlig & calt work on adobe
 lookup Thai.extra {
   sub \uni0E4F \uni0E48 \uni0E48 by \uni0E4F.extra;
   sub \uni0E4F \uni200D \uni0E48 \uni200D \uni0E48 by \uni0E4F.extra;

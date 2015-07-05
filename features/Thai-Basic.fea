@@ -17,8 +17,8 @@ languagesystem thai SAN ;
 include(OT/thai-basic.gdef.fea)
 
 # GSUB
-include(OT/thai-extra.fea)
 include(OT/thai-core.fea)
+include(OT/thai-extra.fea)
 
 # GPOS
 include(OT/thai-extra.kern.fea)

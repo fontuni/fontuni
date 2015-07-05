@@ -18,14 +18,31 @@ lookup Latin.st.cedilla {
 } Latin.st.cedilla;
 
 feature locl {
-
   script latn;
     language ROM exclude_dflt;
       lookup Latin.st.cedilla;
     language MOL exclude_dflt;
       lookup Latin.st.cedilla;
-
 } locl;
+
+# For older browsers & applications
+feature ccmp {
+  script latn;
+    language ROM exclude_dflt;
+      lookup Latin.st.cedilla;
+    language MOL exclude_dflt;
+      lookup Latin.st.cedilla;
+} ccmp;
+
+feature salt {
+  script latn;
+    lookup Latin.st.cedilla;
+} salt;
+
+feature ss01 {
+  script latn;
+    lookup Latin.st.cedilla;
+} ss01;
 
 # i & dotlessi ccmp
 lookup Latin.ij {
@@ -75,10 +92,19 @@ feature liga {
 } liga;
 
 # figure related features
+@pnum = [ \zero \one \two \three \four \five \six \seven \eight \nine ];
+@tnum = [ \zero.tnum \one.tnum \two.tnum \three.tnum \four.tnum \five.tnum \six.tnum \seven.tnum \eight.tnum \nine.tnum ];
+@numr = [ \zero.numr \one.numr \two.numr \three.numr \four.numr \five.numr \six.numr \seven.numr \eight.numr \nine.numr ];
+@dnom = [ \zero.dnom \one.dnom \two.dnom \three.dnom \four.dnom \five.dnom \six.dnom \seven.dnom \eight.dnom \nine.dnom ];
+@sups = [ \zero.sups \one.sups \two.sups \three.sups \four.sups \five.sups \six.sups \seven.sups \eight.sups \nine.sups ];
+@subs = [ \zero.subs \one.subs \two.subs \three.subs \four.subs \five.subs \six.subs \seven.subs \eight.subs \nine.subs ];
 
-# tabular number
-@pnum = [ \one \two \three \four \five \six \seven \eight \nine ];
-@tnum = [ \one.tnum \two.tnum \three.tnum \four.tnum \five.tnum \six.tnum \seven.tnum \eight.tnum \nine.tnum ];
+@add1 = [ \parenleft \parenright \n ];
+@add1.sups = [ \parenleft.sups \parenright.sups \n.sups ];
+@add2 = [ \parenleft \parenright ];
+@add2.subs = [ \parenleft.subs \parenright.subs ];
+@all.sups = [ @sups @add1.sups ];
+@all.subs = [ @subs @add2.subs ];
 
 feature tnum {
   lookup Latin.tnum {
@@ -86,35 +112,75 @@ feature tnum {
   } Latin.tnum;
 } tnum;
 
-feature pum {
+feature pnum {
   lookup Latin.pnum {
     sub @tnum by @pnum;
   } Latin.pnum;
-} pum;
+} pnum;
 
-# fractions
+# sups, subs, numr, dnom
+feature sups {
+  lookup Latin.sups {
+    sub [ @pnum @add1 ] by @all.sups;
+    sub [ @tnum @add1 ] by @all.sups;
+  } Latin.sups;
+} sups;
+
+feature subs {
+  lookup Latin.subs {
+    sub [ @pnum @add2 ] by @all.subs;
+    sub [ @tnum @add2 ] by @all.subs;
+  } Latin.subs;
+} subs;
+
+lookup Latin.numr {
+  sub [ @pnum ] by @numr;
+  sub [ @tnum ] by @numr;
+} Latin.numr;
+
+feature numr {
+  lookup Latin.numr;
+} numr;
+
+lookup Latin.dnom {
+  sub [ @pnum ] by @dnom;
+  sub [ @tnum ] by @dnom;
+  sub [ @numr ] by @dnom;
+} Latin.dnom;
+
+feature dnom {
+  lookup Latin.dnom;
+} dnom;
+
 lookup LatinSlash.frac {
   sub \slash by \fraction;
 } LatinSlash.frac;
 
-lookup Latin.frac {
+# fractions
+lookup LatinContext.frac {
+  sub [ \fraction @dnom ] @numr' lookup Latin.dnom;
+} LatinContext.frac;
 
-  sub \one \fraction \four by \onequarter;
-  sub \one \fraction \two by \onehalf;
-  sub \three \fraction \four by \threequarters;
+lookup LatinLiga.frac {
 
-  sub \one \fraction \three by \onethird;
-  sub \two \fraction \three by \twothirds;
-  sub \one \fraction \eight by \oneeighth;
-  sub \three \fraction \eight by \threeeighths;
-  sub \five \fraction \eight by \fiveeighths;
-  sub \seven \fraction \eight by \seveneighths;
+  sub [ \one \one.numr ] \fraction [ \four \four.dnom ] by \onequarter;
+  sub [ \one \one.numr ] \fraction [ \two \two.dnom ] by \onehalf;
+  sub [ \three \three.numr ] \fraction [ \four \four.dnom ] by \threequarters;
 
-} Latin.frac;
+  sub [ \one \one.numr ] \fraction [ \three \three.dnom ] by \onethird;
+  sub [ \two \two.numr ] \fraction [ \three \three.dnom ] by \twothirds;
+  sub [ \one \one.numr ] \fraction [ \eight \eight.dnom ] by \oneeighth;
+  sub [ \three \three.numr ] \fraction [ \eight \eight.dnom ] by \threeeighths;
+  sub [ \five \five.numr ] \fraction [ \eight \eight.dnom ] by \fiveeighths;
+  sub [ \seven \seven.numr ] \fraction [ \eight \eight.dnom ] by \seveneighths;
+
+} LatinLiga.frac;
 
 feature frac {
+  lookup Latin.numr;
   lookup LatinSlash.frac;
-  lookup Latin.frac;
+  lookup LatinContext.frac;
+  lookup LatinLiga.frac;
 } frac;
 
 # GPOS
@@ -158,7 +224,7 @@ lookup LatinAbove.mark {
 
   pos base [ \a @a.blw \g \q \uni0251 \uni0261 ] <anchor 355 0> mark @LatinAbove.mark;
     pos base [ @a.abv ] <anchor 355 210> mark @LatinAbove.mark;
-  pos base [ \c @c.blw ] <anchor 345 0> mark @LatinAbove.mark;
+  pos base [ \c @c.blw ] <anchor 325 0> mark @LatinAbove.mark;
   pos base [ \e @e.blw ] <anchor 335 0> mark @LatinAbove.mark;
     pos base [ @e.abv ] <anchor 335 210> mark @LatinAbove.mark;
 
@@ -219,7 +285,7 @@ lookup LatinBelow.mark {
 
   pos base [ \a @a.abv \d @u.base @u.abv \uni0251 ] <anchor 355 0> mark @LatinBelow.mark;
   pos base [ \b \h \k \n @n.abv @o.base @o.abv \kgreenlandic ] <anchor 325 0> mark @LatinBelow.mark;
-  pos base [ \c ] <anchor 345 0> mark @LatinBelow.mark;
+  pos base [ \c ] <anchor 325 0> mark @LatinBelow.mark;
   pos base [ \e @e.abv ] <anchor 335 0> mark @LatinBelow.mark;
   pos base [ \f ] <anchor 210 0> mark @LatinBelow.mark;
   pos base [ \dotlessi @i.abv ] <anchor 175 0> mark @LatinBelow.mark;
@@ -248,27 +314,27 @@ lookup LatinBelow.mark {
 lookup LatinCedilla.mark {
   markClass [\uni0327 ] <anchor 0 0> @LatinCedilla.mark;
   
-  pos base [ \C ] <anchor 450 0> mark @LatinCedilla.mark;
-  pos base [ \S \uni25CC ] <anchor 390 0> mark @LatinCedilla.mark;
-  pos base [ \T ] <anchor 360 0> mark @LatinCedilla.mark;
+  pos base [ \C ] <anchor 430 0> mark @LatinCedilla.mark;
+  pos base [ \S \uni25CC ] <anchor 380 0> mark @LatinCedilla.mark;
+  pos base [ \T ] <anchor 355 0> mark @LatinCedilla.mark;
   
-  pos base [ \c ] <anchor 360 0> mark @LatinCedilla.mark;
-  pos base [ \s ] <anchor 300 0> mark @LatinCedilla.mark;
+  pos base [ \c ] <anchor 340 0> mark @LatinCedilla.mark;
+  pos base [ \s ] <anchor 290 0> mark @LatinCedilla.mark;
   pos base [ \t ] <anchor 270 0> mark @LatinCedilla.mark;
 } LatinCedilla.mark;
 
 lookup LatinOgonek.mark {
   markClass [\uni0328 ] <anchor 0 0> @LatinOgonek.mark;
 
-  pos base [ \A ] <anchor 700 0> mark @LatinOgonek.mark;
-  pos base [ \E ] <anchor 570 0> mark @LatinOgonek.mark;
-  pos base [ \I ] <anchor 300 0> mark @LatinOgonek.mark;
-  pos base [ \O \U ] <anchor 470 0> mark @LatinOgonek.mark;
+  pos base [ \A ] <anchor 690 0> mark @LatinOgonek.mark;
+  pos base [ \E ] <anchor 560 0> mark @LatinOgonek.mark;
+  pos base [ \I ] <anchor 290 0> mark @LatinOgonek.mark;
+  pos base [ \O \U ] <anchor 460 0> mark @LatinOgonek.mark;
 
-  pos base [ \a \u ] <anchor 580 0> mark @LatinOgonek.mark;
-  pos base [ \e ] <anchor 390 0> mark @LatinOgonek.mark;
-  pos base [ \i \dotlessi ] <anchor 180 0> mark @LatinOgonek.mark;
-  pos base [ \o ] <anchor 370 0> mark @LatinOgonek.mark;
+  pos base [ \a \u ] <anchor 570 0> mark @LatinOgonek.mark;
+  pos base [ \e ] <anchor 380 0> mark @LatinOgonek.mark;
+  pos base [ \i \dotlessi ] <anchor 160 0> mark @LatinOgonek.mark;
+  pos base [ \o ] <anchor 360 0> mark @LatinOgonek.mark;
 
 } LatinOgonek.mark;
 
