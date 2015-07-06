@@ -8,16 +8,58 @@
 
 include(latin-classes.fea)
 
-@bowl.cap = [\zero \six \eight \nine @O @Q ];
-@lbowl.cap = [ @bowl.cap @C @Ohorn ];
-@rbowl.cap = [ @bowl.cap \three @B @D ];
+@bowl.cap = [\zero \six \eight \nine @G @O @Q ];
+@lbowl.cap = [ @bowl.cap @C @OE @Ohorn ];
+@rbowl.cap = [ @bowl.cap \three @B @D @Thorn @SS ];
 
 lookup Latin.kern {
-  pos [ @rbowl.cap ] [ @A @V ] -30;
-  pos [ @A @V ] [ @lbowl.cap ] -30;
 
-  pos @A @V -70;
-  pos @V @A -70;
+  # 2 sides kerning
+  pos [ @rbowl.cap ] [ @A @V @Y] -30;
+  pos [ @A @V @Y ] [ @lbowl.cap ] -30;
+
+  pos @A [ @V @Y ] -80;
+  pos [ @V @Y ] @A -80;
+  pos [ @V @Y ] @AE -50;
+
+  pos @A [ @W ] -40;
+  pos [ @W ] @A -40;
+
+  pos @A @T -120;
+  pos @T @A -120;
+
+  pos @T @lbowl.cap -60;
+  pos @rbowl.cap @T -60;
+
+  pos @W @lbowl.cap -20;
+  pos @lbowl.cap @W -20;
+  
+  pos @X @lbowl.cap -60;
+  pos @lbowl.cap @X -60;
+
+  pos @Z @lbowl.cap -20;
+  pos @rbowl.cap @Z -20;
+
+  # right side kerning
+  pos @F @A -100;
+  pos @F @lbowl.cap -45;
+
+  pos [ @J @S @U ] @A -20;
+
+  pos @K @lbowl.cap -60;
+
+  pos @L [ @A ] -45;
+  pos @L [ @AE ] -15;
+  pos @L [ @J @S @U ] -15;
+  pos @L [ @lbowl.cap ] -60;
+  pos @L [ @T @V @Y ] -120;
+  pos @L [ @W ] -90;
+
+  pos @P @A -90;
+  pos @P [ @V @Y ] -30;
+
+  pos @R [ @A @V @Y ] -30;
+
 } Latin.kern;
 
 feature kern {

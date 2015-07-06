@@ -98,11 +98,11 @@
 @uhorn.blw = [ \uni1EF1 ];
 @uhorn = [ \uhorn @uhorn.abv @uhorn.blw ];
 
-@Y.abv = [ \Yacute \Ycircumflex \Ydieresis \Ygrave \uni1EF6 \uni1EF8 ];
+@Y.abv = [ \Yacute \Ycircumflex \Ydieresis \Ygrave \uni1E8E \uni1EF6 \uni1EF8 ];
 @Y.blw = [ \uni1EF4 ];
 @Y = [ \Y @Y.abv @Y.blw ];
 
-@y.abv = [ \yacute \ycircumflex \ydieresis \ygrave \uni1EF7 \uni1EF9 ];
+@y.abv = [ \yacute \ycircumflex \ydieresis \ygrave \uni1E8F \uni1EF7 \uni1EF9 ];
 @y.blw = [ \uni1EF5 ];
 @y = [ \y @y.abv @Y.blw ];
 
@@ -121,43 +121,69 @@
 
 @D.base = [ \D \Eth \Dcroat ];
 @D.abv = [ \Dcaron ];
-@D = [ @D.base @D.abv ];
+@D.blw = [ \uni1E0C \uni1E0E ];
+@D = [ @D.base @D.abv @D.blw ];
+
+@d.blw = [ \uni1E0D \uni1E0F ];
+@d = [ \d @d.blw ];
 
 @F = [ \F ];
-@f = [ \f ];
 
-@G.abv = [ \Gcircumflex \Gbreve \Gdotaccent \Gcaron ];
+@f.blw = [ \florin ];
+@f = [ \f @f.blw ];
+
+@G.abv = [ \Gcircumflex \Gbreve \Gdotaccent \Gcaron \uni1E20 ];
 @G.blw = [ \uni0122 ];
 @G = [ \G @G.abv @G.blw ];
 
-@g.abv = [ \gcircumflex \gbreve \gdotaccent \uni0123 \gcaron ];
+@g.abv = [ \gcircumflex \gbreve \gdotaccent \uni0123 \gcaron \uni1E21 ];
 @g = [ \g @g.abv ];
 
 @H.base = [ \H \Hbar ];
 @H.abv = [ \Hcircumflex ];
-@H = [ @H.base @H.abv ];
+@H.blw = [ \uni1E24 \uni1E2A ];
+@H = [ @H.base @H.abv @H.blw ];
 
 @h.base = [ \h \hbar ];
 @h.abv = [ \hcircumflex ];
-@h = [ @h.base @h.abv ];
+@h.blw = [ \uni1E25 \uni1E2B ];
+@h = [ @h.base @h.abv @h.blw ];
 
-@J = [ \J ];
-@j = [ \j \uni031B ];
+@J.abv = [ \Jcircumflex ];
+@J = [ \J @J.abv ];
 
-@K = [ \K ];
-@k = [ \k \kgreenlandic ];
+@j.abv = [ \j \jcircumflex \uni031B ];
+@j = [ \uni031B @j.abv ];
 
-@L.blw = [ \uni1E36 ];
-@L = [ \L @L.blw ];
+@K.blw = [ \uni0136 ];
+@K = [ \K @K.blw ];
 
-@l.blw = [\uni1E37 ];
-@l = [ \l @l.blw ];
+@k.blw = [ \uni0137 ];
+@k = [ \k @k.blw \kgreenlandic ];
 
-@M = [ \M ];
-@m = [ \m ];
+@L.abv = [ \Lacute ];
+@L.blw = [ \uni013B \uni1E36 \uni1E3A ];
+@L.blw.abv = [ \uni1E38 ];
+@L = [ \L \Lslash @L.abv @L.blw @L.blw.abv ];
 
-@N.abv = [ \Ntilde ];
-@n.abv = [ \ntilde ];
+@l.abv = [ \lacute ];
+@l.blw = [ \uni013C \uni1E37 \uni1E3B ];
+@l.blw.abv = [ \uni1E39 ];
+@l = [ \l \lslash @l.abv @l.blw @l.blw.abv ];
+
+@M.blw = [ \uni1E42 ];
+@M = [ \M @M.blw ];
+
+@m.blw = [ \uni1E43 ];
+@m = [ \m @m.blw ];
+
+@N.abv = [ \Ntilde \Nacute \uni1E44 ];
+@N.blw = [ \uni0145 \uni1E46 \uni1E48 ];
+@N = [ \N @N.abv @N.blw ];
+
+@n.abv = [ \ntilde \nacute \uni1E45 ];
+@n.blw = [ \uni0146 \uni1E47 \uni1E49 ];
+@n = [ \n @n.abv @n.blw ];
 
 @P = [ \P ];
 @p = [ \p ];
@@ -165,32 +191,61 @@
 @Q = [ \Q ];
 @q = [ \q ];
 
-@R.blw = [ \uni1E5A ];
-@r.blw = [ \uni1E5B ];
+@R.abv = [ \Racute \Rcaron ];
+@R.blw = [ \uni0156 \uni1E5A \uni1E5E ];
+@R.blw.abv = [ \uni1E5C ];
+@R = [ \R @R.abv @R.blw @R.blw.abv ];
 
-@S.abv = [ \Sacute \Scircumflex \Scaron ];
-@S.blw = [ \Scedilla \uni0218 ];
+@r.abv = [ \racute \rcaron ];
+@r.blw = [ \uni0157 \uni1E5B \uni1E5F ];
+@r.blw.abv = [ \uni1E5D ];
+@r = [ \r @r.abv @r.blw @r.blw.abv ];
+
+@S.abv = [ \Sacute \Scircumflex \Scaron \uni1E60 ];
+@S.blw = [ \Scedilla \uni0218 \uni1E62 ];
 @S = [ \S @S.abv @S.blw ];
 
-@s.abv = [ \sacute \scircumflex \scaron ];
-@s.blw = [ \scedilla  \uni0219 ];
+@s.abv = [ \sacute \scircumflex \scaron \uni1E61 ];
+@s.blw = [ \scedilla  \uni0219 \uni1E63 ];
 @s = [ \s @s.abv @s.blw ];
 
-@T = [ \T ];
-@t = [ \t ];
+@T.abv = [ \Tcaron ];
+@T.blw = [ \uni0162 \uni021A \uni1E6C \uni1E6E ];
+@T = [ \T @T.abv @T.blw ];
+
+@t.abv = [ \uni1E97 ];
+@t.blw = [ \uni0163 \uni021B \uni1E6D \uni1E6F ];
+@t = [ \t @t.abv @t.blw ];
 
 @V = [ \V ];
 @v = [ \v ];
 
-@W = [ \W ];
-@w = [ \w ];
+@W.abv = [ \Wcircumflex \Wgrave \Wacute \Wdieresis ];
+@W = [ \W @W.abv ];
+
+@w.abv = [ \wcircumflex \wgrave \wacute \wdieresis ];
+@w = [ \w @w.abv ];
 
 @X= [ \X ];
 @x = [ \x ];
 
-@Y = [ \Y ];
-@y = [ \y ];
+@Z.abv = [ \Zacute \Zdotaccent \Zcaron ];
+@Z.blw = [ \uni1E92 ];
+@Z = [ \Z @Z.abv ];
 
-@Z = [ \Z ];
-@z = [ \z ];
+@z.abv = [ \zacute \zdotaccent \zcaron ];
+@z.blw = [ \uni1E93 ];
+@z = [ \z @z.abv];
+
+@AE = [ \AE ];
+@ae = [ \ae ];
+
+@OE = [ \OE ];
+@oe = [ \oe ];
+
+@Thorn = [ \Thorn ];
+@thorn = [ \thorn ];
+
+@SS = [ \uni1E9E ];
+@ss = [ \germandbls ];
 
