@@ -23,21 +23,30 @@
 # Latin Pre-composed classes
 #
 
+# Latin vowels
 @A.abv = [ \Agrave \Aacute \Acircumflex \Atilde \Adieresis \Aring \Amacron \Abreve \uni01CD \uni1EA2 ];
+@A.abv2 = [ \uni1EA4 \uni1EA6 \uni1EA8 \uni1EAA \uni1EAE \uni1EB0 \uni1EB2 \uni1EB4 ];
 @A.blw = [ \Aogonek \uni1EA0 ];
-@A = [ \A @A.abv @A.blw ];
+@A.blw.abv = [ \uni1EAC \uni1EB6 ];
+@A = [ \A @A.abv @A.abv2 @A.blw @A.blw.abv @A.blw.abv ];
 
 @a.abv = [ \agrave \aacute \acircumflex \atilde \adieresis \aring \amacron \abreve \uni01CE \uni1EA3 ];
+@a.abv2 = [ \uni1EA5 \uni1EA7 \uni1EA9 \uni1EAB \uni1EAF \uni1EB1 \uni1EB3 \uni1EB5 ];
 @a.blw = [ \aogonek \uni1EA1 ];
-@a = [ \a @a.abv @a.blw ];
+@a.blw.abv = [ \uni1EAD \uni1EB7 ];
+@a = [ \a @a.abv @a.abv2 @a.blw @a.blw.abv ];
 
 @E.abv = [ \Egrave \Eacute \Ecircumflex \Edieresis \Emacron \Ebreve \Edotaccent \Ecaron \uni1EBA \uni1EBC ];
+@E.abv2 = [ \uni1EBE \uni1EC0 \uni1EC2 \uni1EC4 ];
 @E.blw = [ \Eogonek \uni1EB8 ];
-@E = [ \E @E.abv @E.blw ];
+@E.blw.abv = [ \uni1EC6 ];
+@E = [ \E @E.abv @E.abv2 @E.blw @E.blw.abv ];
 
 @e.abv = [ \egrave \eacute \ecircumflex \edieresis \emacron \ebreve \edotaccent \ecaron \uni1EBB \uni1EBD ];
+@e.abv2 = [ \uni1EBF uni1EC1 uni1EC3 uni1EC5 ];
 @e.blw = [ \eogonek \uni1EB9 ];
-@e = [ \e @e.abv @e.blw ];
+@e.blw.abv = [ \uni1EC7 ];
+@e = [ \e @e.abv @e.abv2 @e.blw @e.blw.abv ];
 
 @I.abv = [ \Igrave \Iacute \Icircumflex \Idieresis \Itilde \Imacron \Idotaccent \uni01CF \uni1EC8 ];
 @I.blw = [ \Iogonek \uni1ECA ];
@@ -47,25 +56,47 @@
 @i.blw = [ \iogonek \uni1ECB ];
 @i = [ \dotlessi @i.abv ];
 
-@O.base = [ \O \Ohorn \Oslash ];
-@O.abv = [ \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Omacron \Ohungarumlaut \uni01D1 \uni1ECE \uni1EDA \uni1EDC \uni1EDE \uni1EE0 ];
-@O.blw = [ \uni01EA \uni1ECC \uni1EE2 ];
-@O = [ @O.base @O.abv @O.blw ];
+@O.base = [ \O \Oslash ];
+@O.abv = [ \Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Omacron \Ohungarumlaut \uni01D1 \uni1ECE ];
+@O.abv2 = [ \uni1ED0 \uni1ED2 \uni1ED4 \uni1ED6 ];
+@O.blw = [ \uni01EA \uni1ECC ];
+@O.blw.abv = [ \uni1ED8 ];
+@O = [ @O.base @O.abv @O.abv2 @O.blw @O.blw.abv ];
 
-@o.base = [ \o \ohorn \oslash \uni1ECF ];
-@o.abv = [ \ograve \oacute \ocircumflex \otilde \odieresis \omacron \ohungarumlaut \uni01D2 \uni1EDB \uni1EDD \uni1EDF \uni1EE1 ];
-@o.blw = [ \uni01EB \uni1ECD \uni1EE3 ];
-@o = [ @o.base @o.abv @o.blw ];
+@Ohorn.abv = [ \uni1EDA \uni1EDC \uni1EDE \uni1EE0 ];
+@Ohorn.blw = [ \uni1EE2 ];
+@Ohorn = [ \Ohorn @Ohorn.abv @Ohorn.blw ];
 
-@U.base = [ \U \Uhorn ];
-@U.abv = [ \Ugrave \Uacute \Ucircumflex \Udieresis \Utilde \Umacron \Ubreve \Uring \Uhungarumlaut \uni01D3 \uni1EE6 \uni1EE8 \uni1EEA \uni1EEC \uni1EEE ];
-@U.blw = [ \Uogonek \uni1EE4 \uni1EF0 ];
-@U = [ @U.base @U.abv @U.blw ];
+@o.base = [ \o \oslash \uni1ECF ];
+@o.abv = [ \ograve \oacute \ocircumflex \otilde \odieresis \omacron \ohungarumlaut \uni01D2 ];
+@o.abv2 = [ \uni1ED1 \uni1ED3 \uni1ED5 \uni1ED7 ];
+@o.blw = [ \uni01EB \uni1ECD ];
+@o.blw.abv = [ \uni1ED9 ];
+@o = [ @o.base @o.abv @o.abv2 @o.blw @o.blw.abv ];
 
-@u.base = [ \u \uhorn ];
-@u.abv = [ \ugrave \uacute \ucircumflex \udieresis \utilde \umacron \ubreve \uring \uhungarumlaut \uni01D4 \uni1EE7 \uni1EE9 \uni1EEB \uni1EED \uni1EEF ];
+@ohorn.abv = [ \uni1EDB \uni1EDD \uni1EDF \uni1EE1 ];
+@ohorn.blw = [ \uni1EE3 ];
+@ohorn = [ \ohorn @ohorn.abv @ohorn.blw ];
+
+@U.base = [ \U ];
+@U.abv = [ \Ugrave \Uacute \Ucircumflex \Udieresis \Utilde \Umacron \Ubreve \Uring \Uhungarumlaut \uni01D3 \uni1EE6 ];
+@U.abv2 = [ \uni01D5 \uni01D7 \uni01D9 \uni01DB ];
+@U.blw = [ \Uogonek \uni1EE4 ];
+@U = [ @U.base @U.abv @U.abv2 @U.blw ];
+
+@Uhorn.abv = [ \uni1EE8 \uni1EEA \uni1EEC \uni1EEE ];
+@Uhorn.blw = [ \uni1EF0 ];
+@Uhorn = [ \Uhorn @Uhorn.abv @Uhorn.blw ];
+
+@u.base = [ \u ];
+@u.abv = [ \ugrave \uacute \ucircumflex \udieresis \utilde \umacron \ubreve \uring \uhungarumlaut \uni01D4 \uni1EE7 ];
+@u.abv2 = [ \uni01D6 \uni01D8 \uni01DA \uni01DC ];
 @u.blw = [ \uogonek \uni1EE5 \uni1EF1 ];
-@u = [ @u.base @u.abv @u.blw ];
+@u = [ @u.base @u.abv @u.abv2 @u.blw ];
+
+@uhorn.abv = [ \uni1EE9 \uni1EEB \uni1EED \uni1EEF ];
+@uhorn.blw = [ \uni1EF1 ];
+@uhorn = [ \uhorn @uhorn.abv @uhorn.blw ];
 
 @Y.abv = [ \Yacute \Ycircumflex \Ydieresis \Ygrave \uni1EF6 \uni1EF8 ];
 @Y.blw = [ \uni1EF4 ];
@@ -76,34 +107,63 @@
 @y = [ \y @y.abv @Y.blw ];
 
 
-# Additional
+# Latin consonants
+@B = [ \B ];
+@b = [ \b ];
+
 @C.abv = [ \Cacute \Ccircumflex \Cdotaccent \Ccaron ];
 @C.blw = [ \Ccedilla ];
-@C = [ \C @C.blw ];
+@C = [ \C @C.abv @C.blw ];
 
 @c.abv = [ \cacute \ccircumflex \cdotaccent \ccaron ];
 @c.blw = [ \ccedilla ];
-@c = [ \c @c.blw ];
+@c = [ \c @c.abv @c.blw ];
 
 @D.base = [ \D \Eth \Dcroat ];
 @D.abv = [ \Dcaron ];
+@D = [ @D.base @D.abv ];
+
+@F = [ \F ];
+@f = [ \f ];
 
 @G.abv = [ \Gcircumflex \Gbreve \Gdotaccent \Gcaron ];
 @G.blw = [ \uni0122 ];
+@G = [ \G @G.abv @G.blw ];
 
 @g.abv = [ \gcircumflex \gbreve \gdotaccent \uni0123 \gcaron ];
+@g = [ \g @g.abv ];
 
 @H.base = [ \H \Hbar ];
 @H.abv = [ \Hcircumflex ];
+@H = [ @H.base @H.abv ];
 
 @h.base = [ \h \hbar ];
 @h.abv = [ \hcircumflex ];
+@h = [ @h.base @h.abv ];
+
+@J = [ \J ];
+@j = [ \j \uni031B ];
+
+@K = [ \K ];
+@k = [ \k \kgreenlandic ];
 
 @L.blw = [ \uni1E36 ];
+@L = [ \L @L.blw ];
+
 @l.blw = [\uni1E37 ];
+@l = [ \l @l.blw ];
+
+@M = [ \M ];
+@m = [ \m ];
 
 @N.abv = [ \Ntilde ];
 @n.abv = [ \ntilde ];
+
+@P = [ \P ];
+@p = [ \p ];
+
+@Q = [ \Q ];
+@q = [ \q ];
 
 @R.blw = [ \uni1E5A ];
 @r.blw = [ \uni1E5B ];
@@ -116,4 +176,21 @@
 @s.blw = [ \scedilla  \uni0219 ];
 @s = [ \s @s.abv @s.blw ];
 
+@T = [ \T ];
+@t = [ \t ];
+
+@V = [ \V ];
+@v = [ \v ];
+
+@W = [ \W ];
+@w = [ \w ];
+
+@X= [ \X ];
+@x = [ \x ];
+
+@Y = [ \Y ];
+@y = [ \y ];
+
+@Z = [ \Z ];
+@z = [ \z ];
 

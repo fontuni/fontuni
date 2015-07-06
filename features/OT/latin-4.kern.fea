@@ -1,0 +1,25 @@
+#
+# Copyright (c) 2014-2015, Sungsit Sawaiwan (https://sungsit.com | gibbozer [at] gmail [dot] com).
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1 (OFL).
+# You should have received a copy of the OFL License along with this file.
+# If not, see http://scripts.sil.org/OFL
+#
+
+include(latin-classes.fea)
+
+@bowl.cap = [\zero \six \eight \nine @O @Q ];
+@lbowl.cap = [ @bowl.cap @C @Ohorn ];
+@rbowl.cap = [ @bowl.cap \three @B @D ];
+
+lookup Latin.kern {
+  pos [ @rbowl.cap ] [ @A @V ] -30;
+  pos [ @A @V ] [ @lbowl.cap ] -30;
+
+  pos @A @V -70;
+  pos @V @A -70;
+} Latin.kern;
+
+feature kern {
+  lookup Latin.kern;
+} kern;
