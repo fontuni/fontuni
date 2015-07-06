@@ -104,7 +104,7 @@
 
 @y.abv = [ \yacute \ycircumflex \ydieresis \ygrave \uni1E8F \uni1EF7 \uni1EF9 ];
 @y.blw = [ \uni1EF5 ];
-@y = [ \y @y.abv @Y.blw ];
+@y = [ \y @y.abv @y.blw ];
 
 
 # Latin consonants
@@ -124,8 +124,9 @@
 @D.blw = [ \uni1E0C \uni1E0E ];
 @D = [ @D.base @D.abv @D.blw ];
 
+@d.base = [ \d \eth \dcaron \dcroat ];
 @d.blw = [ \uni1E0D \uni1E0F ];
-@d = [ \d @d.blw ];
+@d = [ @d.base @d.blw ];
 
 @F = [ \F ];
 
@@ -203,7 +204,7 @@
 
 @S.abv = [ \Sacute \Scircumflex \Scaron \uni1E60 ];
 @S.blw = [ \Scedilla \uni0218 \uni1E62 ];
-@S = [ \S @S.abv @S.blw ];
+@S = [ \S \dollar @S.abv @S.blw ];
 
 @s.abv = [ \sacute \scircumflex \scaron \uni1E61 ];
 @s.blw = [ \scedilla  \uni0219 \uni1E63 ];
