@@ -184,6 +184,9 @@ feature frac {
 } frac;
 
 # GPOS
+
+include(OT/latin-4.kern.fea)
+
 lookup LatinAbove.mark {
   markClass [ @COMB.abv ] <anchor 0 0> @LatinAbove.mark;
   
@@ -359,6 +362,3 @@ feature mkmk {
   lookup LatinAbove.mkmk;
   lookup LatinBelow.mkmk;
 } mkmk;
-
-
-include(OT/latin-4.kern.fea)
