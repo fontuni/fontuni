@@ -116,6 +116,11 @@ lookup Latin.kern {
   pos @t @lbowl -30;
   pos @t @f -30;
 
+  # punctuations
+  pos [\slash] [\slash] -90;
+  # numerals
+  pos [\six] [\seven] -75;
+
 
 } Latin.kern;
 

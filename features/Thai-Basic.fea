@@ -21,6 +21,6 @@ include(OT/thai-core.fea)
 include(OT/thai-extra.fea)
 
 # GPOS
-include(OT/thai-extra.kern.fea)
 include(OT/thai-basic.mark.fea)
 include(OT/thai-basic.mkmk.fea)
+include(OT/thai-extra.kern.fea)
