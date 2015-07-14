@@ -91,7 +91,7 @@ lookup Latin.kern {
 
   pos @F @A -100;
   pos @F @lbowl.cap -45;
-  pos @F @lbowl -45;
+  pos @F @lbowl -70;
 
   pos @K @lbowl.cap -60;
 
